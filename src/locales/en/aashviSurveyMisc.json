@@ -1,0 +1,592 @@
+{
+    "companyName": "Aashvi Agro India Pvt Ltd",
+    "title": "Cattle Feed Industry Market Research Survey",
+    "disclaimer": "Remember to keep the survey focused, concise, and relevant to the information you need. Analyzing the responses to these questions will provide valuable insights for our SWOT analysis and help inform our market strategy for setting up the cattle feed industry.",
+    "buttonText": "Submit",
+    "submitMsg": "Thank You for Your Feedback!",
+    "submitMsgSub": "Your insights are valuable and will help us improve our services. We appreciate your time and contribution to fill survey form.",
+    "errorMsg": "An error occurred while submitting the form. Please try again later.",
+    "mobileErrorMsg": "Enter a valid mobile number",
+    "surveyIncompleteTitle": "Survey Incomplete",
+    "surveyIncompleteSubtitle": "Oops! It looks like you haven't completed the survey. Are you sure you want to submit the form?",
+    "minimumError": "For submitting the form, minimum 5 questions needs to be answered, along with dealer name and dealer address",
+    "cancel": "cancel",
+    "sure": "sure",
+    "survey": {
+        "Strengths": {
+          "Product Quality": {
+            "question1": {
+              "name": "How would you rate the quality of the cattle feed products you currently deal with?",
+              "input": "scale",
+              "minrange": 0,
+              "maxrange": 10
+            },
+            "question2": {
+              "name": "What specific features or attributes of cattle feed do your customers appreciate the most?",
+              "input": "radio",
+              "options": [
+                { "label": "Nutrient-Rich", "value": "Nutrient-Rich" },
+                { "label": "High Protein Content", "value": "High Protein Content" },
+                { "label": "Digestible", "value": "Digestible" },
+                { "label": "Palatable", "value": "Palatable" },
+                { "label": "Growth Promoting", "value": "Growth Promoting" },
+                { "label": "Healthy Weight Gain", "value": "Healthy Weight Gain" },
+                { "label": "Reproductive Health", "value": "Reproductive Health" },
+                { "label": "Fertility Support", "value": "Fertility Support" },
+                { "label": "Optimal Feed Conversion", "value": "Optimal Feed Conversion" },
+                { "label": "Quality Ingredients", "value": "Quality Ingredients" },
+                { "label": "Consistent Formulation", "value": "Consistent Formulation" },
+                { "label": "Veterinarian Recommended", "value": "Veterinarian Recommended" },
+                { "label": "Natural or Organic", "value": "Natural or Organic" },
+                { "label": "Balanced Nutrition", "value": "Balanced Nutrition" },
+                { "label": "Improved Milk Production", "value": "Improved Milk Production" },
+                { "label": "Enhanced Coat Condition", "value": "Enhanced Coat Condition" },
+                { "label": "Easy to Store", "value": "Easy to Store" },
+                { "label": "Cost-Effective", "value": "Cost-Effective" },
+                { "label": "No Additives or Preservatives", "value": "No Additives or Preservatives" },
+                { "label": "Low Waste", "value": "Low Waste" },
+                { "label": "Low Environmental Impact", "value": "Low Environmental Impact" },
+                { "label": "Trusted Brand", "value": "Trusted Brand" },
+                { "label": "Innovative Formulations", "value": "Innovative Formulations" },
+                { "label": "Sustainable Sourcing", "value": "Sustainable Sourcing" },
+                { "label": "Good Shelf Life", "value": "Good Shelf Life" },
+                { "label": "other", "value": "other" }
+              ]
+              
+            }
+          },
+          "Brand Reputation": {
+            "question1": {
+              "name": "Which cattle feed brands have a strong reputation in the market, according to your customers?",
+              "input": "text"
+            },
+            "question2": {
+              "name": "In your opinion, what factors contribute to a cattle feed brand's positive reputation?",
+              "input": "radio",
+              "options": [
+                { "label": "Product Quality", "value": "Product Quality" },
+                { "label": "Nutritional Excellence", "value": "Nutritional Excellence" },
+                { "label": "Consistent Formulation", "value": "Consistent Formulation" },
+                { "label": "Effectiveness in Livestock", "value": "Effectiveness in Livestock" },
+                { "label": "Customer Reviews", "value": "Customer Reviews" },
+                { "label": "Brand Transparency", "value": "Brand Transparency" },
+                { "label": "Veterinarian Approval", "value": "Veterinarian Approval" },
+                { "label": "Safety Standards", "value": "Safety Standards" },
+                { "label": "Ethical Practices", "value": "Ethical Practices" },
+                { "label": "Customer Support", "value": "Customer Support" },
+                { "label": "Reliable Supply Chain", "value": "Reliable Supply Chain" },
+                { "label": "Innovation in Formulas", "value": "Innovation in Formulas" },
+                { "label": "Value for Money", "value": "Value for Money" },
+                { "label": "Research and Development", "value": "Research and Development" },
+                { "label": "Environmental Responsibility", "value": "Environmental Responsibility" },
+                { "label": "Community Engagement", "value": "Community Engagement" },
+                { "label": "Brand Trustworthiness", "value": "Brand Trustworthiness" },
+                { "label": "Positive Word-of-Mouth", "value": "Positive Word-of-Mouth" },
+                { "label": "Sustainable Sourcing", "value": "Sustainable Sourcing" },
+                { "label": "Clear Labeling", "value": "Clear Labeling" },
+                { "label": "Brand Recognition", "value": "Brand Recognition" },
+                { "label": "Effective Marketing", "value": "Effective Marketing" },
+                { "label": "Packaging Quality", "value": "Packaging Quality" },
+                { "label": "Educational Resources", "value": "Educational Resources" },
+                { "label": "Social Responsibility", "value": "Social Responsibility" },
+                { "label": "other", "value": "other" }
+              ]
+              
+            }
+          },
+          "Distribution Network": {
+            "question1": {
+              "name": "How extensive is your current distribution network for cattle feed products?",
+              "input": "text"
+            },
+            "question2": {
+              "name": "Can you highlight any areas where your distribution network is particularly strong?",
+              "input": "radio",
+              "options": [
+                { "label": "Regional Coverage", "value": "Regional Coverage" },
+                { "label": "Urban Areas", "value": "Urban Areas" },
+                { "label": "Rural Areas", "value": "Rural Areas" },
+                { "label": "Efficient Logistics", "value": "Efficient Logistics" },
+                { "label": "Timely Deliveries", "value": "Timely Deliveries" },
+                { "label": "Wide Reach", "value": "Wide Reach" },
+                { "label": "Distribution Partnerships", "value": "Distribution Partnerships" },
+                { "label": "Warehousing Capabilities", "value": "Warehousing Capabilities" },
+                { "label": "Supply Chain Visibility", "value": "Supply Chain Visibility" },
+                { "label": "Inventory Management", "value": "Inventory Management" },
+                { "label": "Effective Routing", "value": "Effective Routing" },
+                { "label": "Transportation Infrastructure", "value": "Transportation Infrastructure" },
+                { "label": "Customer Accessibility", "value": "Customer Accessibility" },
+                { "label": "Market Penetration", "value": "Market Penetration" },
+                { "label": "Distribution Centers", "value": "Distribution Centers" },
+                { "label": "Customer Feedback", "value": "Customer Feedback" },
+                { "label": "Local Presence", "value": "Local Presence" },
+                { "label": "Responsive to Demand", "value": "Responsive to Demand" },
+                { "label": "Technology Integration", "value": "Technology Integration" },
+                { "label": "Inventory Tracking", "value": "Inventory Tracking" },
+                { "label": "Delivery Speed", "value": "Delivery Speed" },
+                { "label": "Reliable Suppliers", "value": "Reliable Suppliers" },
+                { "label": "Customer Satisfaction", "value": "Customer Satisfaction" },
+                { "label": "Strategic Alliances", "value": "Strategic Alliances" },
+                { "label": "Flexibility in Distribution", "value": "Flexibility in Distribution" },
+                { "label": "other", "value": "other" }
+              ]
+              
+            }
+          }
+        },
+        "Weaknesses": {
+          "Challenges in Current Products": {
+            "question1": {
+              "name": "Are there any common challenges or complaints from customers regarding existing cattle feed products?",
+              "input": "radio",
+              "options": [
+                { "label": "Quality Concerns", "value": "Quality Concerns" },
+                { "label": "Ineffective Formulation", "value": "Ineffective Formulation" },
+                { "label": "Digestibility Issues", "value": "Digestibility Issues" },
+                { "label": "Palatability Problems", "value": "Palatability Problems" },
+                { "label": "Nutrient Deficiency", "value": "Nutrient Deficiency" },
+                { "label": "Weight Gain Challenges", "value": "Weight Gain Challenges" },
+                { "label": "Health-related Complaints", "value": "Health-related Complaints" },
+                { "label": "Reproductive Health Issues", "value": "Reproductive Health Issues" },
+                { "label": "Allergic Reactions", "value": "Allergic Reactions" },
+                { "label": "Cost-related Concerns", "value": "Cost-related Concerns" },
+                { "label": "Inconsistency in Formulas", "value": "Inconsistency in Formulas" },
+                { "label": "Packaging Flaws", "value": "Packaging Flaws" },
+                { "label": "Supply Chain Delays", "value": "Supply Chain Delays" },
+                { "label": "Expiration Date Issues", "value": "Expiration Date Issues" },
+                { "label": "Communication Problems", "value": "Communication Problems" },
+                { "label": "Lack of Customer Support", "value": "Lack of Customer Support" },
+                { "label": "Misleading Marketing", "value": "Misleading Marketing" },
+                { "label": "Environmental Impact", "value": "Environmental Impact" },
+                { "label": "Unpleasant Odor", "value": "Unpleasant Odor" },
+                { "label": "Difficulty in Storage", "value": "Difficulty in Storage" },
+                { "label": "Feed Spoilage", "value": "Feed Spoilage" },
+                { "label": "Availability Issues", "value": "Availability Issues" },
+                { "label": "Packaging Damage during Transit", "value": "Packaging Damage during Transit" },
+                { "label": "Misleading Labels", "value": "Misleading Labels" },
+                { "label": "Contaminants or Impurities", "value": "Contaminants or Impurities" },
+                { "label": "other", "value": "other" }
+              ]
+              
+            },
+            "question2": {
+              "name": "What areas do you think the current cattle feed products are lacking in terms of meeting customer needs?",
+              "input": "radio",
+              "options": [
+                { "label": "Nutritional Gaps", "value": "Nutritional Gaps" },
+                { "label": "Limited Varieties", "value": "Limited Varieties" },
+                { "label": "Unmet Dietary Requirements", "value": "Unmet Dietary Requirements" },
+                { "label": "Limited Customization", "value": "Limited Customization" },
+                { "label": "Palatability Issues", "value": "Palatability Issues" },
+                { "label": "Ineffective Formulas", "value": "Ineffective Formulas" },
+                { "label": "Lack of Specialized Options", "value": "Lack of Specialized Options" },
+                { "label": "Poor Digestibility", "value": "Poor Digestibility" },
+                { "label": "Limited Organic Options", "value": "Limited Organic Options" },
+                { "label": "High Cost", "value": "High Cost" },
+                { "label": "Inconsistent Quality", "value": "Inconsistent Quality" },
+                { "label": "Limited Availability", "value": "Limited Availability" },
+                { "label": "Environmental Impact", "value": "Environmental Impact" },
+                { "label": "Insufficient Innovation", "value": "Insufficient Innovation" },
+                { "label": "Limited Information/Resources", "value": "Limited Information/Resources" },
+                { "label": "Packaging Concerns", "value": "Packaging Concerns" },
+                { "label": "Limited Customer Support", "value": "Limited Customer Support" },
+                { "label": "Safety Concerns", "value": "Safety Concerns" },
+                { "label": "Inadequate Marketing", "value": "Inadequate Marketing" },
+                { "label": "Insufficient Research and Development", "value": "Insufficient Research and Development" },
+                { "label": "Limited Accessibility", "value": "Limited Accessibility" },
+                { "label": "Difficulty in Storage", "value": "Difficulty in Storage" },
+                { "label": "Limited Sustainable Options", "value": "Limited Sustainable Options" },
+                { "label": "Misleading Product Claims", "value": "Misleading Product Claims" },
+                { "label": "Unaddressed Health Concerns", "value": "Unaddressed Health Concerns" },
+                { "label": "other", "value": "other" }
+              ]
+              
+            }
+          },
+          "Logistical Issues": {
+            "question1": {
+              "name": "Do you face any logistical challenges in terms of transportation, storage, or delivery of cattle feed?",
+              "input": "radio",
+              "options": [
+                { "label": "Transportation Delays", "value": "Transportation Delays" },
+                { "label": "Storage Space Constraints", "value": "Storage Space Constraints" },
+                { "label": "Supply Chain Disruptions", "value": "Supply Chain Disruptions" },
+                { "label": "Poor Packaging for Transit", "value": "Poor Packaging for Transit" },
+                { "label": "Limited Distribution Centers", "value": "Limited Distribution Centers" },
+                { "label": "Inefficient Routing", "value": "Inefficient Routing" },
+                { "label": "Inventory Management Issues", "value": "Inventory Management Issues" },
+                { "label": "Temperature-sensitive Storage", "value": "Temperature-sensitive Storage" },
+                { "label": "Frequent Stockouts", "value": "Frequent Stockouts" },
+                { "label": "Damage during Transit", "value": "Damage during Transit" },
+                { "label": "Delivery Time Variability", "value": "Delivery Time Variability" },
+                { "label": "Poor Road Infrastructure", "value": "Poor Road Infrastructure" },
+                { "label": "Seasonal Demand Fluctuations", "value": "Seasonal Demand Fluctuations" },
+                { "label": "Limited Access to Remote Areas", "value": "Limited Access to Remote Areas" },
+                { "label": "Handling Requirements", "value": "Handling Requirements" },
+                { "label": "Quality Degradation in Storage", "value": "Quality Degradation in Storage" },
+                { "label": "Inadequate Warehousing", "value": "Inadequate Warehousing" },
+                { "label": "Distribution Cost Concerns", "value": "Distribution Cost Concerns" },
+                { "label": "Limited Visibility in Supply Chain", "value": "Limited Visibility in Supply Chain" },
+                { "label": "Customer Accessibility", "value": "Customer Accessibility" },
+                { "label": "Fuel Cost Fluctuations", "value": "Fuel Cost Fluctuations" },
+                { "label": "Weather-related Challenges", "value": "Weather-related Challenges" },
+                { "label": "Regulatory Compliance", "value": "Regulatory Compliance" },
+                { "label": "Supply Chain Complexity", "value": "Supply Chain Complexity" },
+                { "label": "Difficulty in Forecasting Demand", "value": "Difficulty in Forecasting Demand" },
+                { "label": "other", "value": "other" }
+              ]
+              
+            },
+            "question2": {
+              "name": "Are there specific regions where your logistics face more difficulties?",
+              "input": "radio",
+              "options": [
+                { "label": "Remote Areas", "value": "Remote Areas" },
+                { "label": "Rural Regions", "value": "Rural Regions" },
+                { "label": "Mountainous Terrain", "value": "Mountainous Terrain" },
+                { "label": "Urban Congestion", "value": "Urban Congestion" },
+                { "label": "Cross-Border Logistics", "value": "Cross-Border Logistics" },
+                { "label": "Poor Road Infrastructure", "value": "Poor Road Infrastructure" },
+                { "label": "Harsh Weather Conditions", "value": "Harsh Weather Conditions" },
+                { "label": "Limited Accessibility", "value": "Limited Accessibility" },
+                { "label": "Islands or Coastal Areas", "value": "Islands or Coastal Areas" },
+                { "label": "Regulatory Compliance Challenges", "value": "Regulatory Compliance Challenges" },
+                { "label": "Political Instability", "value": "Political Instability" },
+                { "label": "Restricted Access Zones", "value": "Restricted Access Zones" },
+                { "label": "Seasonal Logistics Challenges", "value": "Seasonal Logistics Challenges" },
+                { "label": "Limited Warehousing Facilities", "value": "Limited Warehousing Facilities" },
+                { "label": "Customs and Duties Issues", "value": "Customs and Duties Issues" },
+                { "label": "Economic Challenges in Certain Regions", "value": "Economic Challenges in Certain Regions" },
+                { "label": "Environmental Restrictions", "value": "Environmental Restrictions" },
+                { "label": "Limited Transportation Infrastructure", "value": "Limited Transportation Infrastructure" },
+                { "label": "Conflict Zones", "value": "Conflict Zones" },
+                { "label": "Language Barriers", "value": "Language Barriers" },
+                { "label": "Supply Chain Complexity in Specific Regions", "value": "Supply Chain Complexity in Specific Regions" },
+                { "label": "Cultural Considerations", "value": "Cultural Considerations" },
+                { "label": "Specific Geographic Restrictions", "value": "Specific Geographic Restrictions" },
+                { "label": "Health and Safety Concerns in Certain Areas", "value": "Health and Safety Concerns in Certain Areas" },
+                { "label": "Availability of Local Partnerships", "value": "Availability of Local Partnerships" },
+                { "label": "other", "value": "other" }
+              ]
+              
+            }
+          },
+          "Pricing Concerns": {
+            "question1": {
+              "name": "How do you perceive the pricing of existing cattle feed products in the market?",
+              "input": "radio",
+              "options": [
+                { "label": "Affordable Pricing", "value": "Affordable Pricing" },
+                { "label": "Competitive Pricing", "value": "Competitive Pricing" },
+                { "label": "High Cost", "value": "High Cost" },
+                { "label": "Value for Money", "value": "Value for Money" },
+                { "label": "Cost-Effective", "value": "Cost-Effective" },
+                { "label": "Transparent Pricing", "value": "Transparent Pricing" },
+                { "label": "Varied Pricing Options", "value": "Varied Pricing Options" },
+                { "label": "Inflation Impact on Pricing", "value": "Inflation Impact on Pricing" },
+                { "label": "Perceived Quality vs. Price", "value": "Perceived Quality vs. Price" },
+                { "label": "Discounts and Promotions", "value": "Discounts and Promotions" },
+                { "label": "Seasonal Price Fluctuations", "value": "Seasonal Price Fluctuations" },
+                { "label": "Perceived Cost Efficiency", "value": "Perceived Cost Efficiency" },
+                { "label": "Economic Factors Impacting Pricing", "value": "Economic Factors Impacting Pricing" },
+                { "label": "Pricing Transparency", "value": "Pricing Transparency" },
+                { "label": "Perceived Value", "value": "Perceived Value" },
+                { "label": "Premium Pricing", "value": "Premium Pricing" },
+                { "label": "Budget-Friendly Options", "value": "Budget-Friendly Options" },
+                { "label": "Price Consistency", "value": "Price Consistency" },
+                { "label": "Perceived Fair Pricing", "value": "Perceived Fair Pricing" },
+                { "label": "Cost vs. Benefits Consideration", "value": "Cost vs. Benefits Consideration" },
+                { "label": "Perceived Price Stability", "value": "Perceived Price Stability" },
+                { "label": "Perceived Price Flexibility", "value": "Perceived Price Flexibility" },
+                { "label": "Perceived Price Sensitivity", "value": "Perceived Price Sensitivity" },
+                { "label": "Comparative Pricing Analysis", "value": "Comparative Pricing Analysis" },
+                { "label": "Perceived Price Competitiveness", "value": "Perceived Price Competitiveness" },
+                { "label": "other", "value": "other" }
+              ]
+            },
+            "question2": {
+              "name": "Are there price-related concerns or challenges you encounter when dealing with cattle feed?",
+              "input": "radio",
+              
+              "options": [
+                { "label": "Affordability Concerns", "value": "Affordability Concerns" },
+                { "label": "Budget Constraints", "value": "Budget Constraints" },
+                { "label": "Cost Fluctuations", "value": "Cost Fluctuations" },
+                { "label": "Price Volatility", "value": "Price Volatility" },
+                { "label": "Inconsistent Pricing", "value": "Inconsistent Pricing" },
+                { "label": "Perceived High Cost", "value": "Perceived High Cost" },
+                { "label": "Economic Impact on Pricing", "value": "Economic Impact on Pricing" },
+                { "label": "Availability vs. Affordability", "value": "Availability vs. Affordability" },
+                { "label": "Discount Expectations", "value": "Discount Expectations" },
+                { "label": "Transparency in Pricing", "value": "Transparency in Pricing" },
+                { "label": "Price Transparency Issues", "value": "Price Transparency Issues" },
+                { "label": "Budget Planning Challenges", "value": "Budget Planning Challenges" },
+                { "label": "Comparative Pricing Analysis", "value": "Comparative Pricing Analysis" },
+                { "label": "Negotiation Challenges", "value": "Negotiation Challenges" },
+                { "label": "Discount Structure", "value": "Discount Structure" },
+                { "label": "Perceived Value for Price", "value": "Perceived Value for Price" },
+                { "label": "Perceived Unfair Pricing", "value": "Perceived Unfair Pricing" },
+                { "label": "Pricing Communication", "value": "Pricing Communication" },
+                { "label": "Perceived Inequality in Pricing", "value": "Perceived Inequality in Pricing" },
+                { "label": "Price Sensitivity", "value": "Price Sensitivity" },
+                { "label": "Perceived Value vs. Price", "value": "Perceived Value vs. Price" },
+                { "label": "Perceived Unpredictability in Pricing", "value": "Perceived Unpredictability in Pricing" },
+                { "label": "Contractual Pricing Challenges", "value": "Contractual Pricing Challenges" },
+                { "label": "Price Flexibility Expectations", "value": "Price Flexibility Expectations" },
+                { "label": "Perceived Price Discrimination", "value": "Perceived Price Discrimination" },
+                { "label": "other", "value": "other" }
+              ]
+              
+            }
+          }
+        },
+        "Opportunities": {
+          "Market Trends": {
+            "question1": {
+              "name": "Have you observed any emerging trends or preferences in the cattle feed market?",
+              "input": "radio",
+              "options": [
+                { "label": "Natural Ingredients", "value": "Natural Ingredients" },
+                { "label": "Organic Cattle Feed", "value": "Organic Cattle Feed" },
+                { "label": "Sustainable Practices", "value": "Sustainable Practices" },
+                { "label": "Plant-Based Formulas", "value": "Plant-Based Formulas" },
+                { "label": "Customized Nutrition", "value": "Customized Nutrition" },
+                { "label": "Advanced Formulas", "value": "Advanced Formulas" },
+                { "label": "Probiotics and Prebiotics", "value": "Probiotics and Prebiotics" },
+                { "label": "Functional Additives", "value": "Functional Additives" },
+                { "label": "GMO-Free Feed", "value": "GMO-Free Feed" },
+                { "label": "Alternative Protein Sources", "value": "Alternative Protein Sources" },
+                { "label": "Environmentally Friendly Packaging", "value": "Environmentally Friendly Packaging" },
+                { "label": "Traceability in Ingredients", "value": "Traceability in Ingredients" },
+                { "label": "Smart Feeding Technologies", "value": "Smart Feeding Technologies" },
+                { "label": "Precision Livestock Farming", "value": "Precision Livestock Farming" },
+                { "label": "Health Monitoring Solutions", "value": "Health Monitoring Solutions" },
+                { "label": "Precision Nutrition Programs", "value": "Precision Nutrition Programs" },
+                { "label": "Blockchain in Supply Chain", "value": "Blockchain in Supply Chain" },
+                { "label": "Holistic Livestock Management", "value": "Holistic Livestock Management" },
+                { "label": "Data-Driven Feed Formulation", "value": "Data-Driven Feed Formulation" },
+                { "label": "Collaboration with Veterinarians", "value": "Collaboration with Veterinarians" },
+                { "label": "Customer Education Programs", "value": "Customer Education Programs" },
+                { "label": "Premiumization of Feed Products", "value": "Premiumization of Feed Products" },
+                { "label": "Customizable Feeding Plans", "value": "Customizable Feeding Plans" },
+                { "label": "Plant-Based Protein Alternatives", "value": "Plant-Based Protein Alternatives" },
+                { "label": "Personalized Nutrition Consultations", "value": "Personalized Nutrition Consultations" },
+                { "label": "other", "value": "other" }
+              ]
+              
+            },
+            "question2": {
+              "name": "Are there specific types of cattle feed products that seem to be gaining popularity?",
+              "input": "radio",
+              "options": [
+                { "label": "High-Protein Formulas", "value": "High-Protein Formulas" },
+                { "label": "Specialized Nutrition", "value": "Specialized Nutrition" },
+                { "label": "Organic Cattle Feed", "value": "Organic Cattle Feed" },
+                { "label": "Non-GMO Feed", "value": "Non-GMO Feed" },
+                { "label": "Customized Formulations", "value": "Customized Formulations" },
+                { "label": "Holistic Feed Products", "value": "Holistic Feed Products" },
+                { "label": "Mineral Supplements", "value": "Mineral Supplements" },
+                { "label": "Vitamin-Enriched Feed", "value": "Vitamin-Enriched Feed" },
+                { "label": "Plant-Based Formulas", "value": "Plant-Based Formulas" },
+                { "label": "Probiotics and Prebiotics", "value": "Probiotics and Prebiotics" },
+                { "label": "Natural Ingredients", "value": "Natural Ingredients" },
+                { "label": "Grain-Free Options", "value": "Grain-Free Options" },
+                { "label": "Functional Additives", "value": "Functional Additives" },
+                { "label": "Alternative Protein Sources", "value": "Alternative Protein Sources" },
+                { "label": "Balanced Nutrition Plans", "value": "Balanced Nutrition Plans" },
+                { "label": "Environmentally Friendly Feed", "value": "Environmentally Friendly Feed" },
+                { "label": "Smart Feeding Technologies", "value": "Smart Feeding Technologies" },
+                { "label": "Precision Livestock Farming Solutions", "value": "Precision Livestock Farming Solutions" },
+                { "label": "Weight Management Formulas", "value": "Weight Management Formulas" },
+                { "label": "Digestive Health Supplements", "value": "Digestive Health Supplements" },
+                { "label": "Premium Feed Products", "value": "Premium Feed Products" },
+                { "label": "Customizable Feeding Plans", "value": "Customizable Feeding Plans" },
+                { "label": "Performance-Enhancing Feed", "value": "Performance-Enhancing Feed" },
+                { "label": "Traceable Ingredients", "value": "Traceable Ingredients" },
+                { "label": "Hygienic and Safe Feed Products", "value": "Hygienic and Safe Feed Products" },
+                { "label": "other", "value": "other" }
+              ]
+              
+            }
+          },
+          "Unmet Customer Needs": {
+            "question1": {
+              "name": "Are there gaps or unmet needs in the current cattle feed offerings that you've identified?",
+              "input": "radio",
+              "options": [
+                { "label": "Nutrient Gaps", "value": "Nutrient Gaps" },
+                { "label": "Specialized Formulations", "value": "Specialized Formulations" },
+                { "label": "Customizable Nutrition Plans", "value": "Customizable Nutrition Plans" },
+                { "label": "Tailored Feed Options", "value": "Tailored Feed Options" },
+                { "label": "Organic and Natural Alternatives", "value": "Organic and Natural Alternatives" },
+                { "label": "Sustainable Feed Products", "value": "Sustainable Feed Products" },
+                { "label": "Environmentally Friendly Packaging", "value": "Environmentally Friendly Packaging" },
+                { "label": "Advanced Feed Technologies", "value": "Advanced Feed Technologies" },
+                { "label": "Individualized Nutrition Solutions", "value": "Individualized Nutrition Solutions" },
+                { "label": "Holistic Livestock Management", "value": "Holistic Livestock Management" },
+                { "label": "Proactive Health Management", "value": "Proactive Health Management" },
+                { "label": "Functional Additives", "value": "Functional Additives" },
+                { "label": "Alternative Protein Sources", "value": "Alternative Protein Sources" },
+                { "label": "GMO-Free Feed Options", "value": "GMO-Free Feed Options" },
+                { "label": "Smart Feeding Technologies", "value": "Smart Feeding Technologies" },
+                { "label": "Transparent Ingredient Sourcing", "value": "Transparent Ingredient Sourcing" },
+                { "label": "Traceability in Feed Ingredients", "value": "Traceability in Feed Ingredients" },
+                { "label": "Performance-Enhancing Formulas", "value": "Performance-Enhancing Formulas" },
+                { "label": "Weight Management Solutions", "value": "Weight Management Solutions" },
+                { "label": "Digestive Health Support", "value": "Digestive Health Support" },
+                { "label": "Veterinarian-Approved Formulations", "value": "Veterinarian-Approved Formulations" },
+                { "label": "Innovative Feed Additives", "value": "Innovative Feed Additives" },
+                { "label": "Affordable Quality Feed", "value": "Affordable Quality Feed" },
+                { "label": "Premium Feed Products", "value": "Premium Feed Products" },
+                { "label": "Educational Resources for Farmers", "value": "Educational Resources for Farmers" },
+                { "label": "other", "value": "other" }
+              ]
+              
+            },
+            "question2": {
+              "name": "Can you suggest any specific features or formulations that could address unmet customer needs?",
+              "input": "radio",
+              "options": [
+                { "label": "Tailored Nutrient Formulas", "value": "Tailored Nutrient Formulas" },
+                { "label": "Customizable Feed Plans", "value": "Customizable Feed Plans" },
+                { "label": "Precision Nutrition Solutions", "value": "Precision Nutrition Solutions" },
+                { "label": "Individualized Health Support", "value": "Individualized Health Support" },
+                { "label": "Advanced Probiotic Formulas", "value": "Advanced Probiotic Formulas" },
+                { "label": "Holistic Livestock Health Management", "value": "Holistic Livestock Health Management" },
+                { "label": "Sustainable and Eco-Friendly Ingredients", "value": "Sustainable and Eco-Friendly Ingredients" },
+                { "label": "Transparent Ingredient Sourcing", "value": "Transparent Ingredient Sourcing" },
+                { "label": "Enhanced Digestive Health Supplements", "value": "Enhanced Digestive Health Supplements" },
+                { "label": "Alternative Protein Options", "value": "Alternative Protein Options" },
+                { "label": "Plant-Based Formulations", "value": "Plant-Based Formulations" },
+                { "label": "GMO-Free Feed Alternatives", "value": "GMO-Free Feed Alternatives" },
+                { "label": "Smart Feed Technologies", "value": "Smart Feed Technologies" },
+                { "label": "Traceable and Ethical Sourcing", "value": "Traceable and Ethical Sourcing" },
+                { "label": "Performance-Boosting Additives", "value": "Performance-Boosting Additives" },
+                { "label": "Innovative Functional Ingredients", "value": "Innovative Functional Ingredients" },
+                { "label": "Affordable Premium Feed Options", "value": "Affordable Premium Feed Options" },
+                { "label": "Weight Management Formulas", "value": "Weight Management Formulas" },
+                { "label": "Proactive Health Management Plans", "value": "Proactive Health Management Plans" },
+                { "label": "Natural and Organic Alternatives", "value": "Natural and Organic Alternatives" },
+                { "label": "Vitamin-Enriched Feed Products", "value": "Vitamin-Enriched Feed Products" },
+                { "label": "Educational Resources for Farmers", "value": "Educational Resources for Farmers" },
+                { "label": "Environmentally Conscious Packaging", "value": "Environmentally Conscious Packaging" },
+                { "label": "Budget-Friendly Specialized Feed", "value": "Budget-Friendly Specialized Feed" },
+                { "label": "Veterinarian-Approved Formulations", "value": "Veterinarian-Approved Formulations" },
+                { "label": "other", "value": "other" }
+              ]
+              
+            }
+          }
+        },
+        "Threats": {
+          "Customer Loyalty": {
+            "question1": {
+              "name": "How loyal are customers to specific cattle feed brands, and is there a risk of losing customers to competitors?",
+              "input": "scale",
+              "minrange": 0,
+              "maxrange": 10
+            },
+            "question2": {
+              "name": "Are there any factors that might lead to customer dissatisfaction or switching to other brands?",
+              "input": "radio",
+              "options": [
+                { "label": "Poor Product Quality", "value": "Poor Product Quality" },
+                { "label": "Inconsistent Formulas", "value": "Inconsistent Formulas" },
+                { "label": "Unsatisfactory Customer Service", "value": "Unsatisfactory Customer Service" },
+                { "label": "Price Increases", "value": "Price Increases" },
+                { "label": "Lack of Innovation", "value": "Lack of Innovation" },
+                { "label": "Limited Product Variety", "value": "Limited Product Variety" },
+                { "label": "Supply Chain Disruptions", "value": "Supply Chain Disruptions" },
+                { "label": "Issues with Packaging", "value": "Issues with Packaging" },
+                { "label": "Misleading Marketing", "value": "Misleading Marketing" },
+                { "label": "Lack of Transparency", "value": "Lack of Transparency" },
+                { "label": "Availability Problems", "value": "Availability Problems" },
+                { "label": "Change in Formulas", "value": "Change in Formulas" },
+                { "label": "Unresolved Complaints", "value": "Unresolved Complaints" },
+                { "label": "Negative Customer Reviews", "value": "Negative Customer Reviews" },
+                { "label": "Safety Concerns", "value": "Safety Concerns" },
+                { "label": "Environmental Impact", "value": "Environmental Impact" },
+                { "label": "Poor Customer Support", "value": "Poor Customer Support" },
+                { "label": "Brand Reputation Damage", "value": "Brand Reputation Damage" },
+                { "label": "Lack of Trust", "value": "Lack of Trust" },
+                { "label": "Limited Availability", "value": "Limited Availability" },
+                { "label": "Expiration Date Issues", "value": "Expiration Date Issues" },
+                { "label": "Allergic Reactions", "value": "Allergic Reactions" },
+                { "label": "Outdated Technology", "value": "Outdated Technology" },
+                { "label": "Ineffective Marketing", "value": "Ineffective Marketing" },
+                { "label": "Competitor Advancements", "value": "Competitor Advancements" },
+                { "label": "other", "value": "other" }
+              ]
+              
+            }
+          }
+        },
+        "General": {
+          "Basic Detail": {
+            "question1": {
+              "name": "Dealer Name *",
+              "input": "text",
+              "isMultiline": false
+            },
+            "question2": {
+              "name": "Dealer Address *",
+              "input": "text",
+              "isMultiline": false
+            },
+            "question3": {
+              "name": "Dealer Mobile Number",
+              "input": "number",
+              "isMultiline": false
+            }
+          },
+          "Suggestions and Feedback": {
+            "question1": {
+              "name": "Do you have any suggestions or feedback for potential entrants into the cattle feed industry?",
+              "input": "text"
+            },
+            "question2": {
+              "name": "What improvements or innovations would you like to see in cattle feed products?",
+              "input": "text"
+            }
+          },
+          "Partnership Opportunities": {
+            "question1": {
+              "name": "Would you be open to forming partnerships with a new entrant in the cattle feed industry?",
+              "input": "checkbox"
+            },
+            "question2": {
+              "name": "What criteria would you consider when selecting a partner for cattle feed distribution?",
+              "input": "radio",
+              "options": [
+                { "label": "Reliability", "value": "Reliability" },
+                { "label": "Distribution Network Strength", "value": "Distribution Network Strength" },
+                { "label": "Timely Deliveries", "value": "Timely Deliveries" },
+                { "label": "Communication Skills", "value": "Communication Skills" },
+                { "label": "Experience in Cattle Feed Industry", "value": "Experience in Cattle Feed Industry" },
+                { "label": "Supply Chain Efficiency", "value": "Supply Chain Efficiency" },
+                { "label": "Transparency", "value": "Transparency" },
+                { "label": "Cost-Effectiveness", "value": "Cost-Effectiveness" },
+                { "label": "Geographic Coverage", "value": "Geographic Coverage" },
+                { "label": "Warehousing Facilities", "value": "Warehousing Facilities" },
+                { "label": "Flexibility in Distribution", "value": "Flexibility in Distribution" },
+                { "label": "Customer Service", "value": "Customer Service" },
+                { "label": "Market Knowledge", "value": "Market Knowledge" },
+                { "label": "Financial Stability", "value": "Financial Stability" },
+                { "label": "Technology Integration", "value": "Technology Integration" },
+                { "label": "Quality of Service", "value": "Quality of Service" },
+                { "label": "Regulatory Compliance", "value": "Regulatory Compliance" },
+                { "label": "Collaborative Approach", "value": "Collaborative Approach" },
+                { "label": "Reputation in the Market", "value": "Reputation in the Market" },
+                { "label": "Flexibility in Terms", "value": "Flexibility in Terms" },
+                { "label": "Risk Management", "value": "Risk Management" },
+                { "label": "Sustainability Practices", "value": "Sustainability Practices" },
+                { "label": "Innovative Capabilities", "value": "Innovative Capabilities" },
+                { "label": "Problem-Solving Skills", "value": "Problem-Solving Skills" },
+                { "label": "other", "value": "other" }
+              ]
+              
+            }
+          }
+        }
+      }
+}

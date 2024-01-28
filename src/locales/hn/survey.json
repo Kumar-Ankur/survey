@@ -1,0 +1,1178 @@
+{
+  "survey": {
+    "Strengths": {
+      "उत्पाद की गुणवत्ता": {
+        "question1": {
+          "name": "आप वहाँ उपस्थित जीवाशीत के उत्पादों की गुणवत्ता को कैसे मूल्यांकित करेंगे?",
+          "input": "scale",
+          "minrange": 0,
+          "maxrange": 10
+        },
+        "question2": {
+          "name": "जीवाशीत के भोजन के विशिष्ट विशेषताओं या गुणों की ओर आपके ग्राहकों का सबसे अधिक मूल्यांकन कौन-कौन सी विशेषताएँ या गुणे करते हैं?",
+          "input": "radio",
+          "options": [
+            { "label": "पोषण समृद्ध", "value": "Nutrient-Rich" },
+            {
+              "label": "उच्च प्रोटीन सामग्री",
+              "value": "High Protein Content"
+            },
+            { "label": "पाचनशील", "value": "Digestible" },
+            { "label": "रुचिकर", "value": "Palatable" },
+            { "label": "विकास प्रोत्साहक", "value": "Growth Promoting" },
+            { "label": "स्वस्थ वजन वृद्धि", "value": "Healthy Weight Gain" },
+            { "label": "प्रजनन स्वास्थ्य", "value": "Reproductive Health" },
+            { "label": "फर्टिलिटी समर्थन", "value": "Fertility Support" },
+            {
+              "label": "आदर्श फीड कनवर्जन",
+              "value": "Optimal Feed Conversion"
+            },
+            { "label": "गुणवत्ता सामग्री", "value": "Quality Ingredients" },
+            { "label": "स्थिर सृजन", "value": "Consistent Formulation" },
+            {
+              "label": "वेटरिनेरियन अनुशंसित",
+              "value": "Veterinarian Recommended"
+            },
+            {
+              "label": "प्राकृतिक या कार्गेनिक",
+              "value": "Natural or Organic"
+            },
+            { "label": "संतुलित पोषण", "value": "Balanced Nutrition" },
+            {
+              "label": "सुधारित दूध उत्पादन",
+              "value": "Improved Milk Production"
+            },
+            {
+              "label": "बढ़ाए गए कोट की स्थिति",
+              "value": "Enhanced Coat Condition"
+            },
+            { "label": "संज्ञान में रखने योग्य", "value": "Easy to Store" },
+            { "label": "कॉस्ट-इफेक्टिव", "value": "Cost-Effective" },
+            {
+              "label": "कोई योजक या संरक्षक नहीं",
+              "value": "No Additives or Preservatives"
+            },
+            { "label": "कम अपशिष्ट", "value": "Low Waste" },
+            {
+              "label": "कम पर्यावरण प्रभाव",
+              "value": "Low Environmental Impact"
+            },
+            { "label": "विश्वसनीय ब्रांड", "value": "Trusted Brand" },
+            { "label": "नवाचारी निर्माण", "value": "Innovative Formulations" },
+            { "label": "सतत श्रोत", "value": "Sustainable Sourcing" },
+            { "label": "अच्छी शेल्फ लाइफ", "value": "Good Shelf Life" },
+            { "label": "अन्य", "value": "other" }
+          ]
+        }
+      },
+      "ब्रांड प्रतिष्ठा": {
+        "question1": {
+          "name": "आपके ग्राहकों के अनुसार, कौन से पशु आहार ब्रांड की बाज़ार में अच्छी प्रतिष्ठा है?",
+          "input": "text"
+        },
+        "question2": {
+          "name": "आपकी राय में, पशु आहार ब्रांड की सकारात्मक प्रतिष्ठा में कौन से कारक योगदान करते हैं?",
+          "input": "radio",
+          "options": [
+            { "label": "उत्पाद गुणवत्ता", "value": "Product Quality" },
+            { "label": "पोषण उत्कृष्टता", "value": "Nutritional Excellence" },
+            { "label": "स्थिर सारणी", "value": "Consistent Formulation" },
+            {
+              "label": "पशुओं में प्रभाव",
+              "value": "Effectiveness in Livestock"
+            },
+            { "label": "ग्राहक समीक्षा", "value": "Customer Reviews" },
+            { "label": "ब्रांड पारदर्शिता", "value": "Brand Transparency" },
+            { "label": "वेटरिनरी अनुमोदन", "value": "Veterinarian Approval" },
+            { "label": "सुरक्षा मानक", "value": "Safety Standards" },
+            { "label": "नैतिक अभ्यास", "value": "Ethical Practices" },
+            { "label": "ग्राहक समर्थन", "value": "Customer Support" },
+            {
+              "label": "विश्वसनीय आपूर्ति श्रृंग",
+              "value": "Reliable Supply Chain"
+            },
+            {
+              "label": "सूत्रों में नवाचार",
+              "value": "Innovation in Formulas"
+            },
+            { "label": "पैसे के मूल्य", "value": "Value for Money" },
+            {
+              "label": "अनुसंधान और विकास",
+              "value": "Research and Development"
+            },
+            {
+              "label": "पर्यावरणीय जिम्मेदारी",
+              "value": "Environmental Responsibility"
+            },
+            { "label": "समुदाय बहुमत", "value": "Community Engagement" },
+            {
+              "label": "ब्रांड विश्वासनीयता",
+              "value": "Brand Trustworthiness"
+            },
+            {
+              "label": "मुंह से मुंह प्रचार",
+              "value": "Positive Word-of-Mouth"
+            },
+            { "label": "सतत आपूर्ति स्रोत", "value": "Sustainable Sourcing" },
+            { "label": "स्पष्ट लेबलिंग", "value": "Clear Labeling" },
+            { "label": "ब्रांड पहचान", "value": "Brand Recognition" },
+            { "label": "प्रभावी मार्केटिंग", "value": "Effective Marketing" },
+            { "label": "पैकेजिंग गुणवत्ता", "value": "Packaging Quality" },
+            { "label": "शैक्षणिक संसाधन", "value": "Educational Resources" },
+            { "label": "सामाजिक जिम्मेदारी", "value": "Social Responsibility" },
+            { "label": "अन्य", "value": "other" }
+          ]
+        }
+      },
+      "वितरण नेटवर्क": {
+        "question1": {
+          "name": "पशु चारा उत्पादों के लिए आपका वर्तमान वितरण नेटवर्क कितना व्यापक है?",
+          "input": "text"
+        },
+        "question2": {
+          "name": "क्या आप ऐसे किसी क्षेत्र को उजागर कर सकते हैं जहां आपका वितरण नेटवर्क विशेष रूप से मजबूत है?",
+          "input": "radio",
+          "options": [
+            { "label": "क्षेत्रीय कवरेज", "value": "Regional Coverage" },
+            { "label": "शहरी क्षेत्र", "value": "Urban Areas" },
+            { "label": "ग्रामीण क्षेत्र", "value": "Rural Areas" },
+            { "label": "कुशल लॉजिस्टिक्स", "value": "Efficient Logistics" },
+            { "label": "समय पर वितरण", "value": "Timely Deliveries" },
+            { "label": "व्यापक पहुँच", "value": "Wide Reach" },
+            { "label": "वितरण साझेदारी", "value": "Distribution Partnerships" },
+            { "label": "भंडारण क्षमताएँ", "value": "Warehousing Capabilities" },
+            {
+              "label": "आपूर्ति श्रृंग दृश्यता",
+              "value": "Supply Chain Visibility"
+            },
+            { "label": "सूची प्रबंधन", "value": "Inventory Management" },
+            { "label": "प्रभावी रूटिंग", "value": "Effective Routing" },
+            {
+              "label": "परिवहन बुनियादी ढांचा",
+              "value": "Transportation Infrastructure"
+            },
+            {
+              "label": "ग्राहक पहुंचने की क्षमता",
+              "value": "Customer Accessibility"
+            },
+            { "label": "बाजार प्रवेश", "value": "Market Penetration" },
+            { "label": "वितरण केंद्र", "value": "Distribution Centers" },
+            { "label": "ग्राहक प्रतिसाद", "value": "Customer Feedback" },
+            { "label": "स्थानीय उपस्थिति", "value": "Local Presence" },
+            {
+              "label": "मांग के प्रति संवेदनशील",
+              "value": "Responsive to Demand"
+            },
+            { "label": "तकनीक का सम्मिलन", "value": "Technology Integration" },
+            { "label": "सूची ट्रैकिंग", "value": "Inventory Tracking" },
+            { "label": "वितरण गति", "value": "Delivery Speed" },
+            {
+              "label": "विश्वसनीय आपूर्तिकर्ता",
+              "value": "Reliable Suppliers"
+            },
+            { "label": "ग्राहक संतुष्टि", "value": "Customer Satisfaction" },
+            { "label": "रणनीतिक संबंध", "value": "Strategic Alliances" },
+            {
+              "label": "वितरण में लचीलापन",
+              "value": "Flexibility in Distribution"
+            },
+            { "label": "अन्य", "value": "other" }
+          ]
+        }
+      }
+    },
+    "कमजोरियों": {
+      "वर्तमान उत्पादों में चुनौतियाँ": {
+        "question1": {
+          "name": "क्या मौजूदा पशु चारा उत्पादों के संबंध में ग्राहकों की ओर से कोई आम चुनौतियाँ या शिकायतें हैं?",
+          "input": "radio",
+          "options": [
+            {
+              "label": "गुणवत्ता संबंधित चिंताएं",
+              "value": "Quality Concerns"
+            },
+            { "label": "अकारगर रूपरेखा", "value": "Ineffective Formulation" },
+            { "label": "पचन संबंधी समस्याएं", "value": "Digestibility Issues" },
+            { "label": "रुचिकरता समस्याएं", "value": "Palatability Problems" },
+            { "label": "पोषण की कमी", "value": "Nutrient Deficiency" },
+            {
+              "label": "वजन बढ़ाने की चुनौतियाँ",
+              "value": "Weight Gain Challenges"
+            },
+            {
+              "label": "स्वास्थ्य संबंधित शिकायतें",
+              "value": "Health-related Complaints"
+            },
+            {
+              "label": "प्रजनन स्वास्थ्य समस्याएं",
+              "value": "Reproductive Health Issues"
+            },
+            { "label": "एलर्जिक प्रतिक्रियाएँ", "value": "Allergic Reactions" },
+            {
+              "label": "लागत संबंधित चिंताएं",
+              "value": "Cost-related Concerns"
+            },
+            {
+              "label": "सूरूपता में असमंजस",
+              "value": "Inconsistency in Formulas"
+            },
+            { "label": "पैकेजिंग की खामियाँ", "value": "Packaging Flaws" },
+            { "label": "आपूर्ति श्रृंग देरी", "value": "Supply Chain Delays" },
+            {
+              "label": "समाप्ति तिथि संबंधित चिंताएं",
+              "value": "Expiration Date Issues"
+            },
+            { "label": "संवाद समस्याएं", "value": "Communication Problems" },
+            {
+              "label": "ग्राहक समर्थन की कमी",
+              "value": "Lack of Customer Support"
+            },
+            { "label": "भ्रांतकारक विपणी", "value": "Misleading Marketing" },
+            { "label": "पर्यावरणीय प्रभाव", "value": "Environmental Impact" },
+            { "label": "अप्रिय गंध", "value": "Unpleasant Odor" },
+            { "label": "भंडारण में कठिनाई", "value": "Difficulty in Storage" },
+            { "label": "फीड की स्पॉइलेज", "value": "Feed Spoilage" },
+            { "label": "उपलब्धता समस्याएं", "value": "Availability Issues" },
+            {
+              "label": "पैकेजिंग ट्रांजिट के दौरान क्षति",
+              "value": "Packaging Damage during Transit"
+            },
+            { "label": "भ्रांतकारक लेबल्स", "value": "Misleading Labels" },
+            {
+              "label": "कंटैमिनेंट्स या दूषण",
+              "value": "Contaminants or Impurities"
+            },
+            { "label": "अन्य", "value": "other" }
+          ]
+        },
+        "question2": {
+          "name": "आपको क्या लगता है कि ग्राहकों की जरूरतों को पूरा करने के मामले में वर्तमान पशु चारा उत्पादों में किन क्षेत्रों की कमी है?",
+          "input": "radio",
+          "options": [
+            { "label": "पोषण संबंधित कमियाँ", "value": "Nutritional Gaps" },
+            { "label": "सीमित प्रकार", "value": "Limited Varieties" },
+            {
+              "label": "असंतुलित आहार आवश्यकताएँ",
+              "value": "Unmet Dietary Requirements"
+            },
+            { "label": "सीमित अनुकूलन", "value": "Limited Customization" },
+            { "label": "रुचिकरता समस्याएं", "value": "Palatability Issues" },
+            { "label": "अकारगर रूपरेखा", "value": "Ineffective Formulas" },
+            {
+              "label": "विशेषज्ञ विकल्पों की कमी",
+              "value": "Lack of Specialized Options"
+            },
+            { "label": "कमजोर पाचन", "value": "Poor Digestibility" },
+            {
+              "label": "सीमित कार्बनिक विकल्प",
+              "value": "Limited Organic Options"
+            },
+            { "label": "उच्च लागत", "value": "High Cost" },
+            { "label": "असंतुलित गुणवत्ता", "value": "Inconsistent Quality" },
+            { "label": "सीमित उपलब्धता", "value": "Limited Availability" },
+            { "label": "पर्यावरणीय प्रभाव", "value": "Environmental Impact" },
+            { "label": "अपर्याप्त नवीनता", "value": "Insufficient Innovation" },
+            {
+              "label": "सीमित जानकारी/संसाधन",
+              "value": "Limited Information/Resources"
+            },
+            {
+              "label": "पैकेजिंग संबंधित चिंताएं",
+              "value": "Packaging Concerns"
+            },
+            {
+              "label": "सीमित ग्राहक समर्थन",
+              "value": "Limited Customer Support"
+            },
+            { "label": "सुरक्षा संबंधित चिंताएं", "value": "Safety Concerns" },
+            { "label": "अयोग्य विपणी", "value": "Inadequate Marketing" },
+            { "label": "पर्यावरणीय असर", "value": "Environmental Impact" },
+            {
+              "label": "अपर्याप्त अनुसंधान और विकास",
+              "value": "Insufficient Research and Development"
+            },
+            { "label": "सीमित पहुँच", "value": "Limited Accessibility" },
+            { "label": "भंडारण में कठिनाई", "value": "Difficulty in Storage" },
+            {
+              "label": "सीमित सतत विकल्प",
+              "value": "Limited Sustainable Options"
+            },
+            {
+              "label": "भ्रांतकारक उत्पाद दावे",
+              "value": "Misleading Product Claims"
+            },
+            {
+              "label": "अपूर्व स्वास्थ्य चिंताएं",
+              "value": "Unaddressed Health Concerns"
+            },
+            { "label": "अन्य", "value": "other" }
+          ]
+        }
+      },
+      "तार्किक मुद्दे": {
+        "question1": {
+          "name": "क्या आपको पशुचारे के परिवहन, भंडारण या वितरण के मामले में किसी तार्किक चुनौती का सामना करना पड़ता है?",
+          "input": "radio",
+          "options": [
+            { "label": "परिवहन देरी", "value": "Transportation Delays" },
+            {
+              "label": "भंडारण स्थान की सीमाएँ",
+              "value": "Storage Space Constraints"
+            },
+            {
+              "label": "आपूर्ति श्रृंखला विघटन",
+              "value": "Supply Chain Disruptions"
+            },
+            {
+              "label": "ट्रांजिट के लिए खराब पैकेजिंग",
+              "value": "Poor Packaging for Transit"
+            },
+            {
+              "label": "सीमित वितरण केंद्र",
+              "value": "Limited Distribution Centers"
+            },
+            { "label": "अकुशल मार्गनिर्देशन", "value": "Inefficient Routing" },
+            {
+              "label": "इन्वेंटरी प्रबंधन समस्याएं",
+              "value": "Inventory Management Issues"
+            },
+            {
+              "label": "तापमान-संवेदनशील भंडारण",
+              "value": "Temperature-sensitive Storage"
+            },
+            { "label": "फ्रीक्वेंट स्टॉकआउट्स", "value": "Frequent Stockouts" },
+            {
+              "label": "ट्रांजिट के दौरान क्षति",
+              "value": "Damage during Transit"
+            },
+            {
+              "label": "वितरण समय अस्तित्व",
+              "value": "Delivery Time Variability"
+            },
+            { "label": "खराब सड़क साधना", "value": "Poor Road Infrastructure" },
+            {
+              "label": "मौसमिक मांग की परिस्थितियाँ",
+              "value": "Seasonal Demand Fluctuations"
+            },
+            {
+              "label": "दूरस्थ क्षेत्रों की सीमित पहुँच",
+              "value": "Limited Access to Remote Areas"
+            },
+            {
+              "label": "हैंडलिंग आवश्यकताएं",
+              "value": "Handling Requirements"
+            },
+            {
+              "label": "भंडारण में गुणवत्ता की कमी",
+              "value": "Quality Degradation in Storage"
+            },
+            { "label": "अयोग्य भंडारण", "value": "Inadequate Warehousing" },
+            {
+              "label": "वितरण लागत की चिंताएं",
+              "value": "Distribution Cost Concerns"
+            },
+            {
+              "label": "आपूर्ति श्रृंखला में सीमित दृष्टिकोण",
+              "value": "Limited Visibility in Supply Chain"
+            },
+            { "label": "ग्राहक पहुँचन", "value": "Customer Accessibility" },
+            {
+              "label": "ईंधन लागत की अनियमितता",
+              "value": "Fuel Cost Fluctuations"
+            },
+            {
+              "label": "मौसम संबंधित चुनौतियाँ",
+              "value": "Weather-related Challenges"
+            },
+            { "label": "नियामकीय अनुपालन", "value": "Regulatory Compliance" },
+            {
+              "label": "आपूर्ति श्रृंखला की जटिलता",
+              "value": "Supply Chain Complexity"
+            },
+            {
+              "label": "मांग की पूर्वानुमान में कठिनाई",
+              "value": "Difficulty in Forecasting Demand"
+            },
+            { "label": "अन्य", "value": "other" }
+          ]
+        },
+        "question2": {
+          "name": "क्या ऐसे विशिष्ट क्षेत्र हैं जहां आपके लॉजिस्टिक्स को अधिक कठिनाइयों का सामना करना पड़ता है?",
+          "input": "radio",
+          "options": [
+            { "label": "दूरस्थ क्षेत्र", "value": "Remote Areas" },
+            { "label": "ग्रामीण क्षेत्र", "value": "Rural Regions" },
+            { "label": "पहाड़ी इलाका", "value": "Mountainous Terrain" },
+            { "label": "शहरी भीड़-भाड़", "value": "Urban Congestion" },
+            {
+              "label": "सीमा-स्थित लॉजिस्टिक्स",
+              "value": "Cross-Border Logistics"
+            },
+            {
+              "label": "खराब सड़क अवस्था",
+              "value": "Poor Road Infrastructure"
+            },
+            {
+              "label": "कठिन मौसम की स्थिति",
+              "value": "Harsh Weather Conditions"
+            },
+            { "label": "सीमित पहुँच", "value": "Limited Accessibility" },
+            {
+              "label": "द्वीप या कोस्टल क्षेत्र",
+              "value": "Islands or Coastal Areas"
+            },
+            {
+              "label": "नियामकीय अनुपालन चुनौतियाँ",
+              "value": "Regulatory Compliance Challenges"
+            },
+            { "label": "राजनीतिक अस्थिरता", "value": "Political Instability" },
+            {
+              "label": "प्रतिबंधित पहुँच क्षेत्र",
+              "value": "Restricted Access Zones"
+            },
+            {
+              "label": "मौसमिक लॉजिस्टिक्स चुनौतियाँ",
+              "value": "Seasonal Logistics Challenges"
+            },
+            {
+              "label": "सीमित भंडारण सुविधाएँ",
+              "value": "Limited Warehousing Facilities"
+            },
+            {
+              "label": "कस्टम और कर चुनौतियाँ",
+              "value": "Customs and Duties Issues"
+            },
+            {
+              "label": "कुछ क्षेत्रों में आर्थिक चुनौतियाँ",
+              "value": "Economic Challenges in Certain Regions"
+            },
+            {
+              "label": "पर्यावरण प्रतिबंध",
+              "value": "Environmental Restrictions"
+            },
+            {
+              "label": "सीमित परिवहन बुनियादी ढाँचा",
+              "value": "Limited Transportation Infrastructure"
+            },
+            { "label": "संघर्ष क्षेत्र", "value": "Conflict Zones" },
+            { "label": "भाषा बाधाएँ", "value": "Language Barriers" },
+            {
+              "label": "कुछ क्षेत्रों में आपूर्ति श्रृंखला की जटिलता",
+              "value": "Supply Chain Complexity in Specific Regions"
+            },
+            {
+              "label": "सांस्कृतिक परिवर्तन",
+              "value": "Cultural Considerations"
+            },
+            {
+              "label": "विशिष्ट भूगोलिक प्रतिबंध",
+              "value": "Specific Geographic Restrictions"
+            },
+            {
+              "label": "कुछ क्षेत्रों में स्वास्थ्य और सुरक्षा की चिंताएं",
+              "value": "Health and Safety Concerns in Certain Areas"
+            },
+            {
+              "label": "स्थानीय साझेदारियों की उपलब्धता",
+              "value": "Availability of Local Partnerships"
+            },
+            { "label": "अन्य", "value": "other" }
+          ]
+        }
+      },
+      "मूल्य निर्धारण संबंधी चिंताएँ": {
+        "question1": {
+          "name": "आप बाज़ार में मौजूदा पशु आहार उत्पादों की कीमत को किस प्रकार समझते हैं?",
+          "input": "radio",
+          "options": [
+            { "label": "वित्तीय मूल्य", "value": "Affordable Pricing" },
+            { "label": "प्रतिस्पर्धी मूल्य", "value": "Competitive Pricing" },
+            { "label": "उच्च मूल्य", "value": "High Cost" },
+            { "label": "पैसे का मूल्य", "value": "Value for Money" },
+            { "label": "लागत-कुशल", "value": "Cost-Effective" },
+            { "label": "पारदर्शी मूल्य", "value": "Transparent Pricing" },
+            {
+              "label": "विविध मूल्य विकल्प",
+              "value": "Varied Pricing Options"
+            },
+            {
+              "label": "मूल्य में मुद्रास्फीति",
+              "value": "Inflation Impact on Pricing"
+            },
+            {
+              "label": "मूल्य बनाम अनुभूत गुणस्तर",
+              "value": "Perceived Quality vs. Price"
+            },
+            { "label": "छूट और प्रचार", "value": "Discounts and Promotions" },
+            {
+              "label": "मौसमिक मूल्य परिस्थितियाँ",
+              "value": "Seasonal Price Fluctuations"
+            },
+            {
+              "label": "अनुभूत लागत कुशलता",
+              "value": "Perceived Cost Efficiency"
+            },
+            {
+              "label": "मूल्य को प्रभावित करने वाले आर्थिक कारक",
+              "value": "Economic Factors Impacting Pricing"
+            },
+            { "label": "मूल्य निपुणता", "value": "Pricing Transparency" },
+            { "label": "अनुभूत मूल्य", "value": "Perceived Value" },
+            { "label": "प्रीमियम मूल्य विकल्प", "value": "Premium Pricing" },
+            { "label": "बजट-मित्र विकल्प", "value": "Budget-Friendly Options" },
+            { "label": "मूल्य संरूपता", "value": "Price Consistency" },
+            { "label": "अनुभूत उच्च मूल्य", "value": "Perceived Fair Pricing" },
+            {
+              "label": "लागत बनाम लाभ विचार",
+              "value": "Cost vs. Benefits Consideration"
+            },
+            {
+              "label": "अनुभूत मूल्य स्थिरता",
+              "value": "Perceived Price Stability"
+            },
+            {
+              "label": "अनुभूत मूल्य लचीलापन",
+              "value": "Perceived Price Flexibility"
+            },
+            {
+              "label": "अनुभूत मूल्य प्रतिक्रिया",
+              "value": "Perceived Price Sensitivity"
+            },
+            {
+              "label": "तुलनात्मक मूल्य विश्लेषण",
+              "value": "Comparative Pricing Analysis"
+            },
+            {
+              "label": "अनुभूत मूल्य प्रतिस्पर्धात्मकता",
+              "value": "Perceived Price Competitiveness"
+            },
+            { "label": "अन्य", "value": "other" }
+          ]
+        },
+        "question2": {
+          "name": "क्या मवेशियों के चारे के साथ व्यवहार करते समय आपको मूल्य-संबंधी चिंताएँ या चुनौतियाँ आती हैं?",
+          "input": "radio",
+
+          "options": [
+            {
+              "label": "वित्तीय असमर्थता की चिंताएँ",
+              "value": "Affordability Concerns"
+            },
+            { "label": "बजट की सीमाएँ", "value": "Budget Constraints" },
+            { "label": "लागत में अस्थिरता", "value": "Cost Fluctuations" },
+            { "label": "मूल्य अस्थिरता", "value": "Price Volatility" },
+            {
+              "label": "अस्थिर मूल्य निरूपित",
+              "value": "Inconsistent Pricing"
+            },
+            { "label": "अनुभूत उच्च मूल्य", "value": "Perceived High Cost" },
+            {
+              "label": "मूल्य पर आर्थिक प्रभाव",
+              "value": "Economic Impact on Pricing"
+            },
+            {
+              "label": "उपलब्धता बनाम वित्तीय समर्थन",
+              "value": "Availability vs. Affordability"
+            },
+            { "label": "छूट की आशाएं", "value": "Discount Expectations" },
+            { "label": "मूल्य निष्पक्षता", "value": "Transparency in Pricing" },
+            {
+              "label": "मूल्य पारदर्शिता समस्याएँ",
+              "value": "Price Transparency Issues"
+            },
+            {
+              "label": "बजट योजना की चुनौतियाँ",
+              "value": "Budget Planning Challenges"
+            },
+            {
+              "label": "तुलनात्मक मूल्य विश्लेषण",
+              "value": "Comparative Pricing Analysis"
+            },
+            {
+              "label": "मुआवजा की चुनौतियाँ",
+              "value": "Negotiation Challenges"
+            },
+            { "label": "छूट संरचना", "value": "Discount Structure" },
+            {
+              "label": "मूल्य के लिए अनुभूत मूल्य",
+              "value": "Perceived Value for Price"
+            },
+            {
+              "label": "अनुभूत अन्यायपूर्ण मूल्य",
+              "value": "Perceived Unfair Pricing"
+            },
+            { "label": "मूल्य संवाद", "value": "Pricing Communication" },
+            {
+              "label": "मूल्य में अनूठापन",
+              "value": "Perceived Inequality in Pricing"
+            },
+            { "label": "मूल्य प्रतिक्रिया", "value": "Price Sensitivity" },
+            {
+              "label": "मूल्य बनाम मूल्य के लिए अनुभूत मूल्य",
+              "value": "Perceived Value vs. Price"
+            },
+            {
+              "label": "मूल्य में अनूठापन की अनुभूत अस्थिरता",
+              "value": "Perceived Unpredictability in Pricing"
+            },
+            {
+              "label": "ठेकेदार मूल्य चुनौतियाँ",
+              "value": "Contractual Pricing Challenges"
+            },
+            {
+              "label": "मूल्य की लचीलता की आशाएं",
+              "value": "Price Flexibility Expectations"
+            },
+            {
+              "label": "अनुभूत मूल्य भेदभाव",
+              "value": "Perceived Price Discrimination"
+            },
+            { "label": "अन्य", "value": "other" }
+          ]
+        }
+      }
+    },
+    "अवसर": {
+      "Market Trends": {
+        "question1": {
+          "name": "क्या आपने पशु चारा बाज़ार में कोई उभरता हुआ रुझान या प्राथमिकताएँ देखी हैं?",
+          "input": "radio",
+          "options": [
+            { "label": "प्राकृतिक घटक", "value": "Natural Ingredients" },
+            { "label": "कार्गेट दाना", "value": "Organic Cattle Feed" },
+            { "label": "सतत प्रथा", "value": "Sustainable Practices" },
+            { "label": "प्लांट-आधारित सूत्र", "value": "Plant-Based Formulas" },
+            { "label": "कस्टमाइज्ड पोषण", "value": "Customized Nutrition" },
+            { "label": "एडवांस्ड सूत्र", "value": "Advanced Formulas" },
+            {
+              "label": "प्रोबायोटिक्स और प्रीबायोटिक्स",
+              "value": "Probiotics and Prebiotics"
+            },
+            { "label": "कार्यात्मक योजक", "value": "Functional Additives" },
+            { "label": "जीएमओ-मुक्त चारा", "value": "GMO-Free Feed" },
+            {
+              "label": "विकल्पी प्रोटीन स्रोत",
+              "value": "Alternative Protein Sources"
+            },
+            {
+              "label": "पर्यावरण के अनुकूल पैकेजिंग",
+              "value": "Environmentally Friendly Packaging"
+            },
+            {
+              "label": "सामग्रियों में पूर्वग्रहण की जानकारी",
+              "value": "Traceability in Ingredients"
+            },
+            {
+              "label": "स्मार्ट फीडिंग तकनीकें",
+              "value": "Smart Feeding Technologies"
+            },
+            {
+              "label": "प्रेसिजन लाइवस्टॉक फार्मिंग",
+              "value": "Precision Livestock Farming"
+            },
+            {
+              "label": "स्वास्थ्य मॉनिटरिंग सॉल्यूशन्स",
+              "value": "Health Monitoring Solutions"
+            },
+            {
+              "label": "प्रेसिजन पोषण कार्यक्रम",
+              "value": "Precision Nutrition Programs"
+            },
+            {
+              "label": "सप्लाई चेन में ब्लॉकचेन",
+              "value": "Blockchain in Supply Chain"
+            },
+            {
+              "label": "पूर्ण पशु प्रबंधन",
+              "value": "Holistic Livestock Management"
+            },
+            {
+              "label": "डेटा-ड्रिवन फीड रूपांतरण",
+              "value": "Data-Driven Feed Formulation"
+            },
+            {
+              "label": "डेटा-ड्रिवन फीड रूपांतरण",
+              "value": "Collaboration with Veterinarians"
+            },
+            {
+              "label": "ग्राहक शिक्षा कार्यक्रम",
+              "value": "Customer Education Programs"
+            },
+            {
+              "label": "फीड उत्पादों का प्रीमियम",
+              "value": "Premiumization of Feed Products"
+            },
+            {
+              "label": "कस्टमाइजेबल फीडिंग प्लान्स",
+              "value": "Customizable Feeding Plans"
+            },
+            {
+              "label": "प्लांट-आधारित प्रोटीन विकल्प",
+              "value": "Plant-Based Protein Alternatives"
+            },
+            {
+              "label": "व्यक्तिगत पोषण परामर्श",
+              "value": "Personalized Nutrition Consultations"
+            },
+            { "label": "अन्य", "value": "other" }
+          ]
+        },
+        "question2": {
+          "name": "क्या ऐसे विशिष्ट प्रकार के पशु आहार उत्पाद हैं जो लोकप्रियता प्राप्त कर रहे हैं?",
+          "input": "radio",
+          "options": [
+            { "label": "उच्च-प्रोटीन सूत्र", "value": "High-Protein Formulas" },
+            { "label": "विशेषज्ञ पोषण", "value": "Specialized Nutrition" },
+            { "label": "कार्गेट दाना", "value": "Organic Cattle Feed" },
+            { "label": "नॉन-जीएमओ चारा", "value": "Non-GMO Feed" },
+            { "label": "कस्टमाइज्ड सूत्र", "value": "Customized Formulations" },
+            {
+              "label": "पूर्ण पशु फ़ीड प्रोडक्ट्स",
+              "value": "Holistic Feed Products"
+            },
+            { "label": "खनिज सप्लीमेंट्स", "value": "Mineral Supplements" },
+            {
+              "label": "विटामिन से समृद्ध चारा",
+              "value": "Vitamin-Enriched Feed"
+            },
+            { "label": "प्लांट-आधारित सूत्र", "value": "Plant-Based Formulas" },
+            {
+              "label": "प्रोबायोटिक्स और प्रीबायोटिक्स",
+              "value": "Probiotics and Prebiotics"
+            },
+            { "label": "प्राकृतिक घटक", "value": "Natural Ingredients" },
+            { "label": "ग्रेन-फ्री विकल्प", "value": "Grain-Free Options" },
+            { "label": "कार्यात्मक योजक", "value": "Functional Additives" },
+            {
+              "label": "विकल्पी प्रोटीन स्रोत",
+              "value": "Alternative Protein Sources"
+            },
+            {
+              "label": "संतुलित पोषण योजनाएं",
+              "value": "Balanced Nutrition Plans"
+            },
+            {
+              "label": "पर्यावरण के अनुकूल फ़ीड",
+              "value": "Environmentally Friendly Feed"
+            },
+            {
+              "label": "स्मार्ट फीडिंग तकनीकें",
+              "value": "Smart Feeding Technologies"
+            },
+            {
+              "label": "प्रेसिजन लाइवस्टॉक फार्मिंग सॉल्यूशन्स",
+              "value": "Precision Livestock Farming Solutions"
+            },
+            {
+              "label": "वजन प्रबंधन सूत्र",
+              "value": "Weight Management Formulas"
+            },
+            {
+              "label": "पाचन स्वास्थ्य सप्लीमेंट्स",
+              "value": "Digestive Health Supplements"
+            },
+            {
+              "label": "प्रीमियम फीड प्रोडक्ट्स",
+              "value": "Premium Feed Products"
+            },
+            {
+              "label": "कस्टमाइजेबल फीडिंग प्लान्स",
+              "value": "Customizable Feeding Plans"
+            },
+            {
+              "label": "प्रदर्शन-बढ़ाने वाले फीड",
+              "value": "Performance-Enhancing Feed"
+            },
+            {
+              "label": "ट्रेसेबल इंग्रीडिएंट्स",
+              "value": "Traceable Ingredients"
+            },
+            {
+              "label": "स्वच्छ और सुरक्षित फीड प्रोडक्ट्स",
+              "value": "Hygienic and Safe Feed Products"
+            },
+            { "label": "अन्य", "value": "other" }
+          ]
+        }
+      },
+      "ग्राहकों की अधूरी जरूरतें": {
+        "question1": {
+          "name": "क्या आपके द्वारा पहचानी गई वर्तमान पशु आहार पेशकश में कोई कमियां या अधूरी जरूरतें हैं?",
+          "input": "radio",
+          "options": [
+            { "label": "पोषण की कमी", "value": "Nutrient Gaps" },
+            {
+              "label": "विशेषज्ञ रूपरेखाएं",
+              "value": "Specialized Formulations"
+            },
+            {
+              "label": "कस्टमाइजेबल पोषण योजनाएं",
+              "value": "Customizable Nutrition Plans"
+            },
+            {
+              "label": "रूपरेखित चारा विकल्प",
+              "value": "Tailored Feed Options"
+            },
+            {
+              "label": "कार्गेट और प्राकृतिक विकल्प",
+              "value": "Organic and Natural Alternatives"
+            },
+            {
+              "label": "सतत चारा उत्पाद",
+              "value": "Sustainable Feed Products"
+            },
+            {
+              "label": "पर्यावरण के अनुकूल पैकेजिंग",
+              "value": "Environmentally Friendly Packaging"
+            },
+            {
+              "label": "उन्नत फ़ीड तकनीकें",
+              "value": "Advanced Feed Technologies"
+            },
+            {
+              "label": "व्यक्तिगत पोषण समाधान",
+              "value": "Individualized Nutrition Solutions"
+            },
+            {
+              "label": "पूर्ण पशु प्रबंधन",
+              "value": "Holistic Livestock Management"
+            },
+            {
+              "label": "सक्रिय स्वास्थ्य प्रबंधन",
+              "value": "Proactive Health Management"
+            },
+            { "label": "कार्यात्मक योजक", "value": "Functional Additives" },
+            {
+              "label": "विकल्पी प्रोटीन स्रोत",
+              "value": "Alternative Protein Sources"
+            },
+            {
+              "label": "जीएमओ-मुक्त चारा विकल्प",
+              "value": "GMO-Free Feed Options"
+            },
+            {
+              "label": "स्मार्ट फीडिंग तकनीकें",
+              "value": "Smart Feeding Technologies"
+            },
+            {
+              "label": "पारदर्शी सामग्री का स्रोत",
+              "value": "Transparent Ingredient Sourcing"
+            },
+            {
+              "label": "फ़ीड सामग्रियों में परिश्रवण",
+              "value": "Traceability in Feed Ingredients"
+            },
+            {
+              "label": "प्रदर्शन-बढ़ाने वाले सूत्र",
+              "value": "Performance-Enhancing Formulas"
+            },
+            {
+              "label": "वजन प्रबंधन समाधान",
+              "value": "Weight Management Solutions"
+            },
+            {
+              "label": "पाचन स्वास्थ्य समर्थन",
+              "value": "Digestive Health Support"
+            },
+            {
+              "label": "वेटरिनेरियन-मंजूर रूपरेखाएं",
+              "value": "Veterinarian-Approved Formulations"
+            },
+            {
+              "label": "नवाचारी फ़ीड योजक",
+              "value": "Innovative Feed Additives"
+            },
+            {
+              "label": "किफायती गुणवत्ता वाला चारा",
+              "value": "Affordable Quality Feed"
+            },
+            {
+              "label": "प्रीमियम फीड प्रोडक्ट्स",
+              "value": "Premium Feed Products"
+            },
+            {
+              "label": "किसानों के लिए शिक्षात्मक संसाधन",
+              "value": "Educational Resources for Farmers"
+            },
+            { "label": "अन्य", "value": "other" }
+          ]
+        },
+        "question2": {
+          "name": "क्या आप कोई विशिष्ट विशेषता या फॉर्मूलेशन सुझा सकते हैं जो ग्राहकों की अधूरी जरूरतों को पूरा कर सके?",
+          "input": "radio",
+          "options": [
+            {
+              "label": "कस्टमाइज किए गए पोषण सूत्र",
+              "value": "Tailored Nutrient Formulas"
+            },
+            {
+              "label": "कस्टमाइज किए गए चारा योजनाएं",
+              "value": "Customizable Feed Plans"
+            },
+            {
+              "label": "निर्णय पोषण समाधान",
+              "value": "Precision Nutrition Solutions"
+            },
+            {
+              "label": "व्यक्तिगत स्वास्थ्य समर्थन",
+              "value": "Individualized Health Support"
+            },
+            {
+              "label": "उन्नत प्रोबायोटिक सूत्र",
+              "value": "Advanced Probiotic Formulas"
+            },
+            {
+              "label": "समग्र पशु स्वास्थ्य प्रबंधन",
+              "value": "Holistic Livestock Health Management"
+            },
+            {
+              "label": "सतत और पर्यावरण के सौहार्दपूर्ण सामग्री",
+              "value": "Sustainable and Eco-Friendly Ingredients"
+            },
+            {
+              "label": "पारदर्शी सामग्री का स्रोत",
+              "value": "Transparent Ingredient Sourcing"
+            },
+            {
+              "label": "मजबूत पाचन स्वास्थ्य सप्लीमेंट्स",
+              "value": "Enhanced Digestive Health Supplements"
+            },
+            {
+              "label": "विकल्पी प्रोटीन विकल्प",
+              "value": "Alternative Protein Options"
+            },
+            {
+              "label": "प्लांट-बेस्ड रूपरेखाएं",
+              "value": "Plant-Based Formulations"
+            },
+            {
+              "label": "जीएमओ-मुक्त चारा विकल्प",
+              "value": "GMO-Free Feed Alternatives"
+            },
+            {
+              "label": "स्मार्ट फीड तकनीकें",
+              "value": "Smart Feed Technologies"
+            },
+            {
+              "label": "पूर्ण और नैतिक स्रोत",
+              "value": "Traceable and Ethical Sourcing"
+            },
+            {
+              "label": "प्रदर्शन-बढ़ाने वाले योजक",
+              "value": "Performance-Boosting Additives"
+            },
+            {
+              "label": "नवाचारी कार्यकारी सामग्री",
+              "value": "Innovative Functional Ingredients"
+            },
+            {
+              "label": "किफायती प्रीमियम चारा विकल्प",
+              "value": "Affordable Premium Feed Options"
+            },
+            {
+              "label": "वजन प्रबंधन रूपरेखाएं",
+              "value": "Weight Management Formulas"
+            },
+            {
+              "label": "क्रियाशील स्वास्थ्य प्रबंधन योजनाएं",
+              "value": "Proactive Health Management Plans"
+            },
+            {
+              "label": "प्राकृतिक और कार्जिक विकल्प",
+              "value": "Natural and Organic Alternatives"
+            },
+            {
+              "label": "विटामिन समृद्ध चारा उत्पाद",
+              "value": "Vitamin-Enriched Feed Products"
+            },
+            {
+              "label": "किसानों के लिए शिक्षात्मक संसाधन",
+              "value": "Educational Resources for Farmers"
+            },
+            {
+              "label": "पर्यावरण के बुद्धिमान पैकेजिंग",
+              "value": "Environmentally Conscious Packaging"
+            },
+            {
+              "label": "बजट-मित्र स्पेशलाइज्ड चारा",
+              "value": "Budget-Friendly Specialized Feed"
+            },
+            {
+              "label": "वेटरिनेरियन-मंजूर रूपरेखाएं",
+              "value": "Veterinarian-Approved Formulations"
+            },
+            { "label": "अन्य", "value": "other" }
+          ]
+        }
+      }
+    },
+    "जोखिम": {
+      "ग्राहकों के प्रति वफादारी": {
+        "question1": {
+          "name": "विशिष्ट पशु आहार ब्रांडों के प्रति ग्राहक कितने वफादार हैं, और क्या प्रतिस्पर्धियों के कारण ग्राहकों को खोने का जोखिम है?",
+          "input": "scale",
+          "minrange": 0,
+          "maxrange": 100
+        },
+        "question2": {
+          "name": "क्या ऐसे कोई कारक हैं जो ग्राहक के असंतोष या अन्य ब्रांडों पर स्विच करने का कारण बन सकते हैं?",
+          "input": "radio",
+          "options": [
+            {
+              "label": "घटिया उत्पाद गुणवत्ता",
+              "value": "Poor Product Quality"
+            },
+            { "label": "असंगत सूत्र", "value": "Inconsistent Formulas" },
+            {
+              "label": "असंतोषजनक ग्राहक सेवा",
+              "value": "Unsatisfactory Customer Service"
+            },
+            { "label": "मूल्य में वृद्धि", "value": "Price Increases" },
+            { "label": "नवाचार की कमी", "value": "Lack of Innovation" },
+            {
+              "label": "सीमित उत्पाद विविधता",
+              "value": "Limited Product Variety"
+            },
+            {
+              "label": "आपूर्ति श्रृंगार",
+              "value": "Supply Chain Disruptions"
+            },
+            {
+              "label": "पैकेजिंग के साथ समस्याएं",
+              "value": "Issues with Packaging"
+            },
+            {
+              "label": "भ्रांतकारक मार्गदर्शन",
+              "value": "Misleading Marketing"
+            },
+            { "label": "पारदर्शिता की कमी", "value": "Lack of Transparency" },
+            { "label": "उपलब्धता समस्याएं", "value": "Availability Problems" },
+            { "label": "सूत्र में परिवर्तन", "value": "Change in Formulas" },
+            { "label": "अनसुलझे शिकायतें", "value": "Unresolved Complaints" },
+            {
+              "label": "नकारात्मक ग्राहक समीक्षा",
+              "value": "Negative Customer Reviews"
+            },
+            { "label": "सुरक्षा समस्याएं", "value": "Safety Concerns" },
+            { "label": "पर्यावरण प्रभाव", "value": "Environmental Impact" },
+            {
+              "label": "ग्राहक समर्थन में कमी",
+              "value": "Poor Customer Support"
+            },
+            {
+              "label": "ब्रांड प्रतिष्ठा क्षति",
+              "value": "Brand Reputation Damage"
+            },
+            { "label": "विश्वास की कमी", "value": "Lack of Trust" },
+            { "label": "सीमित उपलब्धता", "value": "Limited Availability" },
+            {
+              "label": "समाप्ति तिथि समस्याएं",
+              "value": "Expiration Date Issues"
+            },
+            { "label": "एलर्जिक प्रतिक्रियाएं", "value": "Allergic Reactions" },
+            { "label": "पुरानी प्रौद्योगिकी", "value": "Outdated Technology" },
+            { "label": "असक्षम मार्गदर्शन", "value": "Ineffective Marketing" },
+            {
+              "label": "प्रतिस्पर्धी उन्नतियां",
+              "value": "Competitor Advancements"
+            },
+            { "label": "अन्य", "value": "other" }
+          ]
+        }
+      }
+    },
+    "सामान्य": {
+      "बुनियादी विवरण": {
+        "question1": {
+          "name": "विक्रेता का नाम",
+          "input": "text"
+        },
+        "question2": {
+          "name": "डीलर का पता",
+          "input": "text"
+        },
+        "question3": {
+          "name": "डीलर मोबाइल नंबर",
+          "input": "number"
+        }
+      },
+      "सुझाव एवं प्रतिक्रिया": {
+        "question1": {
+          "name": "क्या आपके पास पशु चारा उद्योग में संभावित प्रवेशकों के लिए कोई सुझाव या प्रतिक्रिया है?",
+          "input": "text"
+        },
+        "question2": {
+          "name": "आप पशु चारा उत्पादों में क्या सुधार या नवाचार देखना चाहेंगे?",
+          "input": "text"
+        }
+      },
+      "साझेदारी के अवसर": {
+        "question1": {
+          "name": "क्या आप पशु चारा उद्योग में किसी नए खिलाड़ी के साथ साझेदारी बनाने के लिए तैयार हैं?",
+          "input": "toggle"
+        },
+        "question2": {
+          "name": "पशु चारा वितरण के लिए भागीदार का चयन करते समय आप किन मानदंडों पर विचार करेंगे?",
+          "input": "radio",
+          "options": [
+            { "label": "विश्वसनीयता", "value": "Reliability" },
+            {
+              "label": "वितरण नेटवर्क शक्ति",
+              "value": "Distribution Network Strength"
+            },
+            { "label": "समय पर वितरण", "value": "Timely Deliveries" },
+            { "label": "संवाद क्षमता", "value": "Communication Skills" },
+            {
+              "label": "पशु चारा उद्योग में अनुभव",
+              "value": "Experience in Cattle Feed Industry"
+            },
+            {
+              "label": "आपूर्ति श्रृंगार कुशलता",
+              "value": "Supply Chain Efficiency"
+            },
+            { "label": "पारदर्शिता", "value": "Transparency" },
+            { "label": "लागत-कुशलता", "value": "Cost-Effectiveness" },
+            { "label": "भूगोलीय कवरेज", "value": "Geographic Coverage" },
+            {
+              "label": "वेयरहाउसिंग सुविधाएं",
+              "value": "Warehousing Facilities"
+            },
+            {
+              "label": "वितरण में लचीलापन",
+              "value": "Flexibility in Distribution"
+            },
+            { "label": "ग्राहक सेवा", "value": "Customer Service" },
+            { "label": "बाजार ज्ञान", "value": "Market Knowledge" },
+            { "label": "वित्तीय स्थिरता", "value": "Financial Stability" },
+            {
+              "label": "प्रौद्योगिकी समेकन",
+              "value": "Technology Integration"
+            },
+            { "label": "सेवा की गुणवत्ता", "value": "Quality of Service" },
+            { "label": "नियामक संघटन", "value": "Regulatory Compliance" },
+            { "label": "सहयोगी दृष्टिकोण", "value": "Collaborative Approach" },
+            {
+              "label": "बाजार में प्रतिष्ठा",
+              "value": "Reputation in the Market"
+            },
+            { "label": "शर्तों में लचीलापन", "value": "Flexibility in Terms" },
+            { "label": "जोखिम प्रबंधन", "value": "Risk Management" },
+            {
+              "label": "स्थायिता प्रथाएं",
+              "value": "Sustainability Practices"
+            },
+            {
+              "label": "नवाचारात्मक क्षमताएं",
+              "value": "Innovative Capabilities"
+            },
+            {
+              "label": "समस्या-समाधान क्षमताएं",
+              "value": "Problem-Solving Skills"
+            },
+            { "label": "अन्य", "value": "other" }
+          ]
+        }
+      }
+    }
+  }
+}

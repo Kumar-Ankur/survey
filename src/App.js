@@ -1,24 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import { useMediaQuery, useTheme } from "@mui/material";
+import Header from "./components/Header";
+import SurveyCard from "./components/Surveycard";
 
 function App() {
+  const theme = useTheme()
+  const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header />
+      <div style={{padding: isMobile ? '0': '4rem'}}>
+        <SurveyCard/>
+      </div>
+      
+    </>
   );
 }
 

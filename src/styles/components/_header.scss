@@ -1,0 +1,37 @@
+.MuiAppBar-root {
+    background-color: $primary_color !important;
+    color: $secondary_color !important;
+    font-family: 'proximaNovaBold' !important;
+}
+
+.MuiTypography-root {
+    font-family: 'proximaNovaBold' !important;
+}
+
+.question_section {
+    padding-left: 32px;
+
+    @media only screen and (max-width: 600px) {
+        padding-left: 0;
+    }
+
+    &-question {
+        font-family: 'proximaNovaLight' !important;
+    }
+
+    &-label {
+        font-family: 'proximaNovaLight' !important;
+        color: rgba(0, 0, 0, 0.87) !important;
+        font-size: 16px !important;
+    }
+}
+
+.MuiChip-label, .MuiAutocomplete-option {
+    font-family: 'proximaNovaLight' !important;
+        color: rgba(0, 0, 0, 0.87) !important;
+        font-size: 16px !important;
+}
+
+.MuiFormHelperText-root  {
+    color: red !important
+}
