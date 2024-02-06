@@ -12,6 +12,8 @@
     "minimumError": "For submitting the form, minimum 5 questions needs to be answered, along with dealer name and dealer address",
     "cancel": "cancel",
     "sure": "sure",
+    "login": "Login",
+    "enterhere": "Enter here...",
     "survey": {
         "Strengths": {
           "Product Quality": {

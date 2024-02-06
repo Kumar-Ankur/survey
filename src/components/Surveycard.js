@@ -1,6 +1,13 @@
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
-import { AlertTitle, Snackbar, useMediaQuery, useTheme } from "@mui/material";
+import {
+  AlertTitle,
+  Chip,
+  InputAdornment,
+  Snackbar,
+  useMediaQuery,
+  useTheme,
+} from "@mui/material";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import Typography from "@mui/material/Typography";
@@ -17,6 +24,7 @@ import DialogTitle from "@mui/material/DialogTitle";
 import Checkbox from "@mui/material/Checkbox";
 import FormGroup from "@mui/material/FormGroup";
 import FormControlLabel from "@mui/material/FormControlLabel";
+import { Outbox, CheckBoxOutlineBlank, CheckBox } from "@mui/icons-material";
 
 const sliderData_en = {
   "How would you rate the quality of the cattle feed products you currently deal with?":
@@ -147,13 +155,50 @@ const SurveyCard = () => {
     criteriaForPartnership: [],
   });
 
+  const [showInput, setShowInput] = useState({
+    cattleFeedCustomerAppreciate: false,
+    cattleFeedpositiveReputation: false,
+    areaDistributionNetworkStrong: false,
+    challengeFromCustomer: false,
+    lackinginCustomerNeeds: false,
+    logisticChallenges: false,
+    areaWhereLogisticIssue: false,
+    preceivePricing: false,
+    priceRelatedConcern: false,
+    emergingTrend: false,
+    cattleFeedType: false,
+    unmetNeeds: false,
+    featureOrFormula: false,
+    customerDissatisfaction: false,
+    criteriaForPartnership: false,
+  });
+
+  const [otherInput, setOtherInput] = useState({
+    cattleFeedCustomerAppreciate: null,
+    cattleFeedpositiveReputation: null,
+    areaDistributionNetworkStrong: null,
+    challengeFromCustomer: null,
+    lackinginCustomerNeeds: null,
+    logisticChallenges: null,
+    areaWhereLogisticIssue: null,
+    preceivePricing: null,
+    priceRelatedConcern: null,
+    emergingTrend: null,
+    cattleFeedType: null,
+    unmetNeeds: null,
+    featureOrFormula: null,
+    customerDissatisfaction: null,
+    criteriaForPartnership: null,
+  });
+
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
 
   const [mobileErrorText, setMobileErrorText] = useState("");
   const [openInCompleteModal, setOpenInCompleteModal] = useState(false);
   const [minimumAnswer, setMinimumAnswer] = useState(false);
-  const [submitDialog, setSubmitDialog] = useState(false)
+  const [submitDialog, setSubmitDialog] = useState(false);
+  const [showTags, setShowTags] = useState(true);
   const { t, i18n } = useTranslation();
   const currentLanguage = i18n.language;
 
@@ -217,55 +262,57 @@ const SurveyCard = () => {
       setOpenInCompleteModal(true);
     } else {
       setOpenInCompleteModal(false);
-      postSurveyData()
+      postSurveyData();
     }
   };
 
   const postSurveyData = () => {
+    setOpenInCompleteModal(false);
     const payload = {
       Strengths: {
         ProductQuality: {
           rateCattleFeed: surveyData.rateCattleFeed,
-          cattleFeedCustomerAppreciate: surveyData.cattleFeedCustomerAppreciate
+          cattleFeedCustomerAppreciate: surveyData.cattleFeedCustomerAppreciate,
         },
         BrandReputation: {
           cattleFeedBrand: surveyData.cattleFeedBrand,
-          cattleFeedpositiveReputation: surveyData.cattleFeedpositiveReputation
+          cattleFeedpositiveReputation: surveyData.cattleFeedpositiveReputation,
         },
         DistributionNetwork: {
           extensiveDistributionNetwork: surveyData.extensiveDistributionNetwork,
-          areaDistributionNetworkStrong: surveyData.areaDistributionNetworkStrong
-        }
+          areaDistributionNetworkStrong:
+            surveyData.areaDistributionNetworkStrong,
+        },
       },
       Weaknesses: {
         ChallengesInCurrentProducts: {
           challengeFromCustomer: surveyData.challengeFromCustomer,
-          lackinginCustomerNeeds: surveyData.lackinginCustomerNeeds
+          lackinginCustomerNeeds: surveyData.lackinginCustomerNeeds,
         },
         LogisticalIssues: {
           logisticChallenges: surveyData.logisticChallenges,
-          areaWhereLogisticIssue: surveyData.areaWhereLogisticIssue
+          areaWhereLogisticIssue: surveyData.areaWhereLogisticIssue,
         },
         PricingConcerns: {
           preceivePricing: surveyData.preceivePricing,
-          priceRelatedConcern: surveyData.priceRelatedConcern
-        }
+          priceRelatedConcern: surveyData.priceRelatedConcern,
+        },
       },
       Opportunities: {
         MarketTrends: {
           emergingTrend: surveyData.emergingTrend,
-          cattleFeedType: surveyData.cattleFeedType
+          cattleFeedType: surveyData.cattleFeedType,
         },
         UnmetCustomerNeeds: {
           unmetNeeds: surveyData.unmetNeeds,
-          featureOrFormula: surveyData.featureOrFormula
-        }
+          featureOrFormula: surveyData.featureOrFormula,
+        },
       },
       Threats: {
         CustomerLoyalty: {
           customerLoyality: surveyData.customerLoyality,
-          customerDissatisfaction: surveyData.customerDissatisfaction
-        }
+          customerDissatisfaction: surveyData.customerDissatisfaction,
+        },
       },
       General: {
         BasicDetail: {
@@ -280,17 +327,31 @@ const SurveyCard = () => {
         PartnershipOpportunities: {
           FormingPartnership: surveyData.FormingPartnership,
           criteriaForPartnership: surveyData.criteriaForPartnership,
-        }
-      }
-    }
+        },
+      },
+    };
 
-    submitData(payload)
-  }
-  
-  const submitData = payload => {
-    console.log('payload is', payload)
-    setSubmitDialog(true)
-  }
+    submitData(payload);
+  };
+
+  const submitData = (payload) => {
+    console.log(payload);
+    fetch("/submit", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(payload),
+    })
+      .then((data) => {
+        console.log(data);
+        resetData()
+      })
+      .catch((error) => {
+        console.error(error);
+      });
+    setSubmitDialog(true);
+  };
 
   const resetData = () => {
     setSurveyData({
@@ -319,12 +380,13 @@ const SurveyCard = () => {
       improvementOrInnovation: "",
       FormingPartnership: false,
       criteriaForPartnership: [],
-    })
-    setMobileErrorText('')
-    setOpenInCompleteModal(false)
-    setMinimumAnswer(false)
-    setSubmitDialog(false)
-  }
+    });
+    setMobileErrorText("");
+    setOpenInCompleteModal(false);
+    setMinimumAnswer(false);
+    setSubmitDialog(false);
+    setShowTags(false);
+  };
 
   const handleQualityRange = (event, newValue, name) => {
     if (
@@ -371,6 +433,10 @@ const SurveyCard = () => {
         ...surveyData,
         cattleFeedCustomerAppreciate: filteredValue,
       });
+      setShowInput({
+        ...showInput,
+        cattleFeedCustomerAppreciate: filteredValue.includes("other"),
+      });
     } else if (
       sliderData_en[name] === "cattleFeedpositiveReputation" ||
       sliderData_hn[name] === "cattleFeedpositiveReputation"
@@ -378,6 +444,10 @@ const SurveyCard = () => {
       setSurveyData({
         ...surveyData,
         cattleFeedpositiveReputation: filteredValue,
+      });
+      setShowInput({
+        ...showInput,
+        cattleFeedpositiveReputation: filteredValue.includes("other"),
       });
     } else if (
       sliderData_en[name] === "areaDistributionNetworkStrong" ||
@@ -387,66 +457,118 @@ const SurveyCard = () => {
         ...surveyData,
         areaDistributionNetworkStrong: filteredValue,
       });
+      setShowInput({
+        ...showInput,
+        areaDistributionNetworkStrong: filteredValue.includes("other"),
+      });
     } else if (
       sliderData_en[name] === "challengeFromCustomer" ||
       sliderData_hn[name] === "challengeFromCustomer"
     ) {
       setSurveyData({ ...surveyData, challengeFromCustomer: filteredValue });
+      setShowInput({
+        ...showInput,
+        challengeFromCustomer: filteredValue.includes("other"),
+      });
     } else if (
       sliderData_en[name] === "lackinginCustomerNeeds" ||
       sliderData_hn[name] === "lackinginCustomerNeeds"
     ) {
       setSurveyData({ ...surveyData, lackinginCustomerNeeds: filteredValue });
+      setShowInput({
+        ...showInput,
+        lackinginCustomerNeeds: filteredValue.includes("other"),
+      });
     } else if (
       sliderData_en[name] === "logisticChallenges" ||
       sliderData_hn[name] === "logisticChallenges"
     ) {
       setSurveyData({ ...surveyData, logisticChallenges: filteredValue });
+      setShowInput({
+        ...showInput,
+        logisticChallenges: filteredValue.includes("other"),
+      });
     } else if (
       sliderData_en[name] === "areaWhereLogisticIssue" ||
       sliderData_hn[name] === "areaWhereLogisticIssue"
     ) {
       setSurveyData({ ...surveyData, areaWhereLogisticIssue: filteredValue });
+      setShowInput({
+        ...showInput,
+        areaWhereLogisticIssue: filteredValue.includes("other"),
+      });
     } else if (
       sliderData_en[name] === "preceivePricing" ||
       sliderData_hn[name] === "preceivePricing"
     ) {
       setSurveyData({ ...surveyData, preceivePricing: filteredValue });
+      setShowInput({
+        ...showInput,
+        preceivePricing: filteredValue.includes("other"),
+      });
     } else if (
       sliderData_en[name] === "priceRelatedConcern" ||
       sliderData_hn[name] === "priceRelatedConcern"
     ) {
       setSurveyData({ ...surveyData, priceRelatedConcern: filteredValue });
+      setShowInput({
+        ...showInput,
+        priceRelatedConcern: filteredValue.includes("other"),
+      });
     } else if (
       sliderData_en[name] === "emergingTrend" ||
       sliderData_hn[name] === "emergingTrend"
     ) {
       setSurveyData({ ...surveyData, emergingTrend: filteredValue });
+      setShowInput({
+        ...showInput,
+        emergingTrend: filteredValue.includes("other"),
+      });
     } else if (
       sliderData_en[name] === "cattleFeedType" ||
       sliderData_hn[name] === "cattleFeedType"
     ) {
       setSurveyData({ ...surveyData, cattleFeedType: filteredValue });
+      setShowInput({
+        ...showInput,
+        cattleFeedType: filteredValue.includes("other"),
+      });
     } else if (
       sliderData_en[name] === "unmetNeeds" ||
       sliderData_hn[name] === "unmetNeeds"
     ) {
       setSurveyData({ ...surveyData, unmetNeeds: filteredValue });
+      setShowInput({
+        ...showInput,
+        unmetNeeds: filteredValue.includes("other"),
+      });
     } else if (
       sliderData_en[name] === "featureOrFormula" ||
       sliderData_hn[name] === "featureOrFormula"
     ) {
       setSurveyData({ ...surveyData, featureOrFormula: filteredValue });
+      setShowInput({
+        ...showInput,
+        featureOrFormula: filteredValue.includes("other"),
+      });
     } else if (
       sliderData_en[name] === "customerDissatisfaction" ||
       sliderData_hn[name] === "customerDissatisfaction"
     ) {
       setSurveyData({ ...surveyData, customerDissatisfaction: filteredValue });
+      setShowInput({
+        ...showInput,
+        customerDissatisfaction: filteredValue.includes("other"),
+      });
     } else if (
       sliderData_en[name] === "criteriaForPartnership" ||
       sliderData_hn[name] === "criteriaForPartnership"
     ) {
       setSurveyData({ ...surveyData, criteriaForPartnership: filteredValue });
+      setShowInput({
+        ...showInput,
+        criteriaForPartnership: filteredValue.includes("other"),
+      });
     }
   };
 
@@ -499,6 +621,64 @@ const SurveyCard = () => {
     }
   };
 
+  const handleOtherInput = (e, en_other, hn_other) => {
+    if (e.target.value) {
+      if (en_other) {
+        setOtherInput({
+          ...otherInput,
+          [en_other]: e.target.value,
+        });
+      } else {
+        setOtherInput({
+          ...otherInput,
+          [hn_other]: e.target.value,
+        });
+      }
+    }
+  };
+
+  const addOtherInput = (e, en_other, hn_other) => {
+    if (otherInput[en_other]) {
+      setSurveyData({
+        ...surveyData,
+        [en_other]: [...surveyData[en_other], otherInput[en_other]],
+      });
+      setShowInput({
+        ...showInput,
+        [en_other]: false,
+      });
+      setOtherInput({
+        ...otherInput,
+        [en_other]: null,
+      });
+    } else if (otherInput[hn_other]) {
+      setSurveyData({
+        ...surveyData,
+        [hn_other]: [...surveyData[hn_other], otherInput[hn_other]],
+      });
+      setShowInput({
+        ...showInput,
+        [hn_other]: false,
+      });
+      setOtherInput({
+        ...otherInput,
+        [hn_other]: null,
+      });
+    }
+  };
+
+  const renderTags = (value, getTagProps) => (
+    <>
+      {value.map((option, index) => (
+        <Chip
+          variant="outlined"
+          label={option.label}
+          size="small"
+          {...getTagProps({ index })}
+        />
+      ))}
+    </>
+  );
   return (
     <>
       <Dialog
@@ -521,10 +701,7 @@ const SurveyCard = () => {
         </DialogActions>
       </Dialog>
 
-      <Dialog
-        open={submitDialog}
-        onClose={resetData}
-      >
+      <Dialog open={submitDialog} onClose={resetData}>
         <DialogTitle id="alert-dialog-title">
           {t(translations.submitMsg)}
         </DialogTitle>
@@ -582,7 +759,7 @@ const SurveyCard = () => {
                           } = translations.survey[data][point][question];
                           return (
                             <div className="question_section" key={index}>
-                              {input !== "scale" && input !== "checkbox"  && (
+                              {input !== "scale" && input !== "checkbox" && (
                                 <Typography
                                   variant="body1"
                                   className="question_section-question"
@@ -595,10 +772,28 @@ const SurveyCard = () => {
                               {input === "radio" && (
                                 <Stack spacing={3} paddingBottom={4}>
                                   <Autocomplete
+                                  key={showTags}
                                     multiple
                                     id={name}
                                     options={options}
                                     getOptionLabel={(option) => option.label}
+                                    disableCloseOnSelect
+                                    renderTags={renderTags}
+                                    renderOption={(
+                                      props,
+                                      option,
+                                      { selected }
+                                    ) => (
+                                      <li {...props}>
+                                        <Checkbox
+                                          icon={<CheckBoxOutlineBlank />}
+                                          checkedIcon={<CheckBox />}
+                                          style={{ marginRight: 8 }}
+                                          checked={selected}
+                                        />
+                                        {option.label}
+                                      </li>
+                                    )}
                                     renderInput={(params) => (
                                       <TextField
                                         {...params}
@@ -621,6 +816,39 @@ const SurveyCard = () => {
                                     )}
                                     onChange={handleChangeWrapper(name)}
                                   />
+
+                                  {(showInput[sliderData_en[name]] ||
+                                    showInput[sliderData_hn[name]]) && (
+                                    <TextField
+                                      style={{ paddingBottom: "32px" }}
+                                      rows={4}
+                                      fullWidth
+                                      placeholder={t("enterhere")}
+                                      onChange={(e) =>
+                                        handleOtherInput(
+                                          e,
+                                          sliderData_en[name],
+                                          sliderData_hn[name]
+                                        )
+                                      }
+                                      InputProps={{
+                                        endAdornment: (
+                                          <InputAdornment
+                                            position="end"
+                                            onClick={(e) =>
+                                              addOtherInput(
+                                                e,
+                                                sliderData_en[name],
+                                                sliderData_hn[name]
+                                              )
+                                            }
+                                          >
+                                            <Outbox />
+                                          </InputAdornment>
+                                        ),
+                                      }}
+                                    />
+                                  )}
                                 </Stack>
                               )}
 
@@ -673,9 +901,11 @@ const SurveyCard = () => {
                                     input === "number" && mobileErrorText
                                   }
                                   inputProps={
-                                    input === "number" ? {
-                                      maxLength: 10,
-                                    } : {}
+                                    input === "number"
+                                      ? {
+                                          maxLength: 10,
+                                        }
+                                      : {}
                                   }
                                 />
                               )}
@@ -683,17 +913,28 @@ const SurveyCard = () => {
                               {input === "checkbox" && (
                                 <FormGroup>
                                   <FormControlLabel
-                                    control={<Checkbox value={surveyData.FormingPartnership} onChange={e => {
-                                      setSurveyData({...surveyData, FormingPartnership: e.target.checked})
-                                    }}/>}
-                                    label={ <Typography
-                                      variant="body1"
-                                      className="question_section-question"
-                                      mt={2}
-                                      mb={2}
-                                    >
-                                      {t(name)}
-                                    </Typography>}
+                                    control={
+                                      <Checkbox
+                                        checked={surveyData.FormingPartnership}
+                                        onChange={(e) => {
+                                          setSurveyData({
+                                            ...surveyData,
+                                            FormingPartnership:
+                                              e.target.checked,
+                                          });
+                                        }}
+                                      />
+                                    }
+                                    label={
+                                      <Typography
+                                        variant="body1"
+                                        className="question_section-question"
+                                        mt={2}
+                                        mb={2}
+                                      >
+                                        {t(name)}
+                                      </Typography>
+                                    }
                                   />
                                 </FormGroup>
                               )}
