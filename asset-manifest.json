@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/survey/static/css/main.de362e1a.css",
+    "main.js": "/survey/static/js/main.7c6e76c1.js",
+    "static/media/proximanovacond-bold.otf": "/survey/static/media/proximanovacond-bold.e142d9c99284b4da8e5a.otf",
+    "static/media/proximanovacond-light.otf": "/survey/static/media/proximanovacond-light.1bcfcaa04cab32f6791f.otf",
+    "static/media/proximanovacond-medium.otf": "/survey/static/media/proximanovacond-medium.24252a991af3deab4481.otf",
+    "index.html": "/survey/index.html",
+    "main.de362e1a.css.map": "/survey/static/css/main.de362e1a.css.map",
+    "main.7c6e76c1.js.map": "/survey/static/js/main.7c6e76c1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.de362e1a.css",
+    "static/js/main.7c6e76c1.js"
+  ]
+}
