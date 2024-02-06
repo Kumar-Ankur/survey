@@ -10,7 +10,7 @@ const Dashboard = () => {
   ChartJS.register(ArcElement, Tooltip, Legend);
   const [, setReports] = useState([]);
   useEffect(() => {
-    fetch("/fetchReport")
+    fetch("https://survey-cis9.onrender.com/fetchReport")
       .then((res) => res.json())
       .then((res) => {
         setReports(res.records);

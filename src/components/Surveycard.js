@@ -336,7 +336,7 @@ const SurveyCard = () => {
 
   const submitData = (payload) => {
     console.log(payload);
-    fetch("/submit", {
+    fetch("https://survey-cis9.onrender.com/submit", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
